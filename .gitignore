@@ -28,7 +28,7 @@ events.*
 *.pth
 
 # directories
-all_the_data
+data
 
 ## Copied from https://github.com/github/gitignore/blob/master/Python.gitignore
 
