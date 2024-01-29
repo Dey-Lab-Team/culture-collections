@@ -10,19 +10,6 @@ import xml.etree.ElementTree as ET
 # add projections
 
 
-# mobie_project_folder = "/home/hellgoth/Documents/work/projects/"
-# "culture-collections_project/culture-collections"
-# input_file = "/home/hellgoth/Documents/work/projects/"
-# "culture-collections_project/converted_data/5488_5533.ome.zarr"
-# input_key = os.path.join("0", "0")
-
-# # dataset_name = "test_species_01"
-# dataset_name = "all_the_data"
-# dataset_folder = os.path.join(mobie_project_folder, dataset_name)
-
-# menu_name = "species"
-
-
 def get_number_of_channels_from_ome_metadata(xml_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
@@ -41,32 +28,62 @@ def add_multichannel_zarr_image(
     zarr_key,
     mobie_project_directory,
     dataset_name,
-    menu_name,
     is_default_dataset=False,
 ):
+    file_format = "ome.zarr"
     image_name = zarr_file.split('/')[-1].split('.')[0]
     xml_file = os.path.join(zarr_file, "OME/METADATA.ome.xml")
     num_channels = get_number_of_channels_from_ome_metadata(xml_file)
-    for channel in range(num_channels):
-        # just move data, don't copy, apparently internally only changes
-        # pointer not moving a single byte (as long as on same filesystem),
-        # so it should not matter if we call this multiple times (for each
-        # channel)
-        mobie.add_image(
+    sources = [f"{image_name}_ch{channel}" for channel in range(num_channels)]
+    # add image volume once (by this added as a source, but never used as one)
+    # just move data, don't copy, apparently internally only changes
+    # pointer not moving a single byte (as long as on same filesystem),
+    # so it should not matter if we call this multiple times (for each
+    # channel)
+    mobie.add_image(
             input_path=zarr_file,
             input_key=zarr_key,
             root=mobie_project_directory,
             dataset_name=dataset_name,
-            image_name=image_name + f"_ch{channel}",
-            menu_name=menu_name,
-            file_format="ome.zarr",
+            image_name=image_name,
+            file_format=file_format,
+            view={},  # manually add view at the end
             is_default_dataset=is_default_dataset,
             move_only=True,
             resolution=None,  # not needed since we just move data
             chunks=None,  # not needed since we just move data
             scale_factors=None,  # not needed since we just move data
+        )
+    # add each channel as a seperate source
+    for channel, channel_name in enumerate(sources):
+        dataset_folder = os.path.join(mobie_project_directory, dataset_name)
+        _, image_metadata_path = mobie.utils.get_internal_paths(
+            dataset_folder,
+            file_format,
+            image_name
+        )
+        mobie.metadata.add_source_to_dataset(
+            dataset_folder=dataset_folder,
+            source_type="image",
+            source_name=channel_name,
+            image_metadata_path=image_metadata_path,
+            view={},
             channel=channel
         )
+    # ToDo: how to do this properly?
+    display_settings = [
+        {"contrastLimits": [0, 65535]},
+        {"contrastLimits": [0, 65535]},
+        {"contrastLimits": [0, 65535]}
+    ]
+    # add one view to visualize all channels at once
+    mobie.view_utils.create_view(
+        dataset_folder=dataset_folder,
+        view_name=image_name,
+        sources=[sources],
+        display_settings=display_settings,
+        menu_name="volumes",
+    )
 
 
 def get_args():
@@ -101,14 +118,6 @@ def get_args():
         "If it does not exist, it will be created.",
     )
     parser.add_argument(
-        "--menu_name",
-        "-m",
-        default="species",
-        type=str,
-        help="Name of the menu to add the data to."
-        "If it does not exist, it will be created.",
-    )
-    parser.add_argument(
         "--is_default_dataset",
         "-i",
         default=False,
@@ -130,7 +139,6 @@ def main():
         args.input_key,
         args.mobie_project_folder,
         args.dataset_name,
-        args.menu_name,
         args.is_default_dataset,
     )
 
