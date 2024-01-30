@@ -35,7 +35,7 @@ def main():
         dataset_folder=args.dataset_folder,
         metadata=source_metadata,
         data_format="ome.zarr",
-        bucket_name="culture-collections",
+        bucket_name="culture-collections/data",
         s3_prefix=args.s3_alias
     )
 
