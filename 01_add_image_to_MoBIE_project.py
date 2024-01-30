@@ -72,17 +72,18 @@ def add_multichannel_zarr_image(
         )
     # ToDo: how to do this properly?
     display_settings = [
-        {"contrastLimits": [0, 65535]},
-        {"contrastLimits": [0, 65535]},
-        {"contrastLimits": [0, 65535]}
+        {"contrastLimits": [0, 65535], "color": "white"},
+        {"contrastLimits": [50, 65535], "color": "green"},
+        {"contrastLimits": [10, 65535], "color": "blue"}
     ]
     # add one view to visualize all channels at once
     mobie.view_utils.create_view(
         dataset_folder=dataset_folder,
         view_name=image_name,
-        sources=[sources],
+        sources=[[source] for source in sources],
         display_settings=display_settings,
         menu_name="volumes",
+        overwrite=True
     )
 
 
@@ -98,7 +99,7 @@ def get_args():
     parser.add_argument(
         "--input_key",
         "-k",
-        default=os.path.join("0", "0"),
+        default="0",
         type=str,
         help="Key of the data inside the input file.",
     )
@@ -112,7 +113,7 @@ def get_args():
     parser.add_argument(
         "--dataset_name",
         "-d",
-        default="all_single_channel_images",
+        default="all_volumes",
         type=str,
         help="Name of the dataset to add the data to."
         "If it does not exist, it will be created.",
