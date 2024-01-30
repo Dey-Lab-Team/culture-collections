@@ -1,5 +1,6 @@
 import argparse
 import os
+import shutil
 import mobie
 import xml.etree.ElementTree as ET
 
@@ -8,6 +9,11 @@ import xml.etree.ElementTree as ET
 # make one dataset per species
 # make one thumbnail as default for each dataset
 # add projections
+
+def remove_tmp_folder():
+    # maybe the safety if statement can be removed
+    if len(os.listdir("tmp")) == 0:
+        shutil.rmtree("tmp")
 
 
 def get_number_of_channels_from_ome_metadata(xml_file):
@@ -142,6 +148,7 @@ def main():
         args.dataset_name,
         args.is_default_dataset,
     )
+    remove_tmp_folder()
 
 
 if __name__ == "__main__":
