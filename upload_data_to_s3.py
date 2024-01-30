@@ -24,6 +24,7 @@ def get_args():
         type=str,
         help="Prefix of the s3 bucket."
     )
+    return parser.parse_args()
 
 
 def main():
