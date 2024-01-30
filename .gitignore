@@ -29,6 +29,7 @@ events.*
 
 # directories
 data
+tmp
 
 ## Copied from https://github.com/github/gitignore/blob/master/Python.gitignore
 
