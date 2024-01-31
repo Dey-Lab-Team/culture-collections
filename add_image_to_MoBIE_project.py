@@ -1,6 +1,7 @@
 import argparse
 import os
 import shutil
+import subprocess
 import mobie
 import xml.etree.ElementTree as ET
 
@@ -9,6 +10,10 @@ import xml.etree.ElementTree as ET
 # make one dataset per species
 # make one thumbnail as default for each dataset
 # add projections
+
+def pull_recent_repo_from_github():
+    subprocess.run(["git", "pull"])
+
 
 def remove_tmp_folder():
     # maybe the safety if statement can be removed
@@ -141,6 +146,11 @@ def main():
     # make a folder input and iterate over all files in there
     # do single steps but then combine into one file (maybe via snakmake?)
     args = get_args()
+    # make sure that is out of loop
+    # I think stuff that takes long should be in the loop
+    # like convert, add, and upload
+    # add remote data and git pull should be outside
+    pull_recent_repo_from_github()
     add_multichannel_zarr_image(
         args.input_file,
         args.input_key,
