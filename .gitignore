@@ -19,7 +19,6 @@ events.*
 *.db
 *.out
 *.err
-*.txt
 *.png
 *.pdf
 
