@@ -3,7 +3,7 @@ from elf.io import open_file
 import numpy as np
 
 
-def get_contrast_limits(image):
+def calc_contrast_limits(image):
     # adapted from
     # https://forum.image.sc/t/macro-for-image-adjust-brightness-contrast-auto-button/37157/5
     min_value = image.min()
@@ -40,6 +40,12 @@ def get_contrast_limits(image):
     return min_value, max_value
 
 
+def get_contrast_limits(zarr_file_path, zarr_key="1"):
+    zarr_file = open_file(zarr_file_path, mode="r")
+    contrast_limits = calc_contrast_limits(zarr_file[zarr_key][0, 0])
+    return contrast_limits
+
+
 def main():
     file_path = "/home/hellgoth/Documents/work/projects/" \
         "culture-collections_project/converted_copy/5488_5534.ome.zarr"
@@ -48,9 +54,7 @@ def main():
     for key in range(8):
         print(key)
         s = time.time()
-        array = zarr_file[key]
-        image = array[0, 0]
-        contrast_limits = get_contrast_limits(image)
+        contrast_limits = get_contrast_limits(file_path, zarr_key=key)
         e = time.time()
         print(contrast_limits, e-s)
 
