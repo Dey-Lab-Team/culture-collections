@@ -29,7 +29,8 @@ def scrape_supported_file_types_from_page(page):
         file_formats = text.split(", ")
         entries.extend(
             # remove empty strings
-            [file_format for file_format in file_formats
+            # remove leading . from file formats
+            [file_format[1:] for file_format in file_formats
              if file_format and file_format != "etc."]
         )
     return entries
