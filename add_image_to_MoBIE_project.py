@@ -5,6 +5,11 @@ import subprocess
 import mobie
 import xml.etree.ElementTree as ET
 
+from calc_contrast import get_contrast_limits
+
+
+DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
+
 
 def pull_recent_repo_from_github():
     subprocess.run(["git", "pull"])
@@ -35,6 +40,7 @@ def add_multichannel_zarr_image(
     mobie_project_directory,
     dataset_name,
     is_default_dataset=False,
+    calculate_contrast_limits=True
 ):
     file_format = "ome.zarr"
     image_name = zarr_file.split('/')[-1].split('.')[0]
@@ -63,7 +69,7 @@ def add_multichannel_zarr_image(
     # add each channel as a seperate source
     for channel, channel_name in enumerate(sources):
         dataset_folder = os.path.join(mobie_project_directory, dataset_name)
-        _, image_metadata_path = mobie.utils.get_internal_paths(
+        image_data_path, image_metadata_path = mobie.utils.get_internal_paths(
             dataset_folder,
             file_format,
             image_name
@@ -76,12 +82,17 @@ def add_multichannel_zarr_image(
             view={},
             channel=channel
         )
-    # ToDo: how to do this properly?
+    # set color and contrast limits for each channel
     display_settings = [
-        {"contrastLimits": [0, 65535], "color": "white"},
-        {"contrastLimits": [50, 65535], "color": "green"},
-        {"contrastLimits": [10, 65535], "color": "blue"}
+        {"color": DEFAULT_COLORS_PER_CHANNEL[channel]}
+        for channel in range(num_channels)
     ]
+    if calculate_contrast_limits:  # flag since this can take a few seconds
+        for channel, channel_settings in enumerate(display_settings):
+            channel_settings["contrastLimits"] = get_contrast_limits(
+                image_data_path,  # should be the same for all channels
+                channel
+            )
     # add one view to visualize all channels at once
     mobie.view_utils.create_view(
         dataset_folder=dataset_folder,
@@ -130,6 +141,14 @@ def get_args():
         default=False,
         type=bool,
         help="Whether this dataset should be the default one.",
+    )
+    parser.add_argument(
+        "--calculate_contrast_limits",
+        "-c",
+        default=True,
+        type=bool,
+        help="Whether to calculate contrast limits for the image."
+        "Makes adding the image slower, but the image will look better."
     )
     return parser.parse_args()
 

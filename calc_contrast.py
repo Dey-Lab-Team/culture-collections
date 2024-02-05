@@ -37,7 +37,7 @@ def calc_contrast_limits(image):
         max_value = min(int(min_value + histo_max * bin_size), max_value)
 
     # otherwise, just return the min and max of the image
-    return min_value, max_value
+    return [min_value, max_value]
 
 
 def get_contrast_limits(zarr_file_path, channel, zarr_key="1"):
