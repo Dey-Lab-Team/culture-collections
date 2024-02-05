@@ -27,7 +27,11 @@ def scrape_supported_file_types_from_page(page):
         entry = row.find_all("td")[1]
         text = entry.text
         file_formats = text.split(", ")
-        entries.extend(file_formats)
+        entries.extend(
+            # remove empty strings
+            [file_format for file_format in file_formats
+             if file_format and file_format != "etc."]
+        )
     return entries
 
 
@@ -36,6 +40,7 @@ def get_supported_file_types(url=URL, scrape_again=False):
         return json.load(open("supported_file_types.txt", "r"))
     page = get_page(url)
     entries = scrape_supported_file_types_from_page(page)
+    entries = sorted(entries)
     with open("supported_file_types.txt", "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     return entries
