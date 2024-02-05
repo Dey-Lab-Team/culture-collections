@@ -1,9 +1,9 @@
 import subprocess
 
 
-def stage_all_and_commit():
+def stage_all_and_commit(msg="add new images"):
     subprocess.run(["git", "add", "-A"])
-    subprocess.run(["git", "commit", "-m", "add new images"])
+    subprocess.run(["git", "commit", "-m", msg])
 
 
 def sync_with_remote():
