@@ -172,6 +172,7 @@ def main():
         args.mobie_project_folder,
         args.dataset_name,
         args.is_default_dataset,
+        args.calculate_contrast_limits
     )
     remove_tmp_folder()
 
