@@ -40,9 +40,9 @@ def calc_contrast_limits(image):
     return min_value, max_value
 
 
-def get_contrast_limits(zarr_file_path, zarr_key="1"):
+def get_contrast_limits(zarr_file_path, channel, zarr_key="1"):
     zarr_file = open_file(zarr_file_path, mode="r")
-    contrast_limits = calc_contrast_limits(zarr_file[zarr_key][0, 0])
+    contrast_limits = calc_contrast_limits(zarr_file[zarr_key][0, channel])
     return contrast_limits
 
 
