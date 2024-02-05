@@ -12,13 +12,14 @@ def generate_zarr_file_path(input_file):
     return file_path
 
 
-def convert_to_ome_zarr(input_file, putput_file):
+def convert_to_ome_zarr(input_file, output_file):
     # use subprocess to call bioformats2raw
-    cmd = f'bioformats2raw {input_file} {putput_file} ' \
+    cmd = f'bioformats2raw {input_file} {output_file} ' \
         '--target-min-size 32 ' \
         '--scale-format-string "%2$d/"'
     cmd = shlex.split(cmd)
     subprocess.run(cmd)
+    return output_file
 
 
 def get_args():
@@ -36,7 +37,7 @@ def get_args():
 def main():
     args = get_args()
     zarr_file = generate_zarr_file_path(args.input_file)
-    convert_to_ome_zarr(args.input_file, zarr_file)
+    _ = convert_to_ome_zarr(args.input_file, zarr_file)
 
 
 if __name__ == "__main__":
