@@ -9,6 +9,13 @@ from calc_contrast import get_contrast_limits
 
 
 DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
+# TODO: read them from file name?
+DEFAULT_NAMES_PER_CHANNEL = [
+    "channel-1",
+    "channel-2",
+    "channel-3",
+    "channel-4"
+]
 
 
 def pull_recent_repo_from_github():
@@ -84,7 +91,9 @@ def add_multichannel_zarr_image(
         )
     # set color and contrast limits for each channel
     display_settings = [
-        {"color": DEFAULT_COLORS_PER_CHANNEL[channel]}
+        {
+            "color": DEFAULT_COLORS_PER_CHANNEL[channel]
+        }
         for channel in range(num_channels)
     ]
     if calculate_contrast_limits:  # flag since this can take a few seconds
@@ -99,6 +108,7 @@ def add_multichannel_zarr_image(
         view_name=image_name,
         sources=[[source] for source in sources],
         display_settings=display_settings,
+        display_group_names=DEFAULT_NAMES_PER_CHANNEL[:num_channels],
         menu_name="volumes",
         overwrite=True
     )
