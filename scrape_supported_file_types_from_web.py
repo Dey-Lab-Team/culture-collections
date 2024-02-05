@@ -36,12 +36,13 @@ def get_supported_file_types(url=URL, scrape_again=False):
         return json.load(open("supported_file_types.txt", "r"))
     page = get_page(url)
     entries = scrape_supported_file_types_from_page(page)
-    json.dump(entries, open("supported_file_types.txt", "w"))
+    with open("supported_file_types.txt", "w", encoding="utf-8") as f:
+        json.dump(entries, f, ensure_ascii=False, indent=4)
     return entries
 
 
 def main():
-    get_supported_file_types(scrape_again=True)
+    _ = get_supported_file_types(scrape_again=True)
 
 
 if __name__ == "__main__":
