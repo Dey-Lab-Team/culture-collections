@@ -6,11 +6,6 @@ import mobie
 import xml.etree.ElementTree as ET
 
 
-# make one huge dataset with all the data
-# make one dataset per species
-# make one thumbnail as default for each dataset
-# add projections
-
 def pull_recent_repo_from_github():
     subprocess.run(["git", "pull"])
 
@@ -140,16 +135,7 @@ def get_args():
 
 
 def main():
-    # make argparser
-    # run it once to create the project
-    # adjust contrast (need to handle vieww)
-    # make a folder input and iterate over all files in there
-    # do single steps but then combine into one file (maybe via snakmake?)
     args = get_args()
-    # make sure that is out of loop
-    # I think stuff that takes long should be in the loop
-    # like convert, add, and upload
-    # add remote data and git pull should be outside
     pull_recent_repo_from_github()
     add_multichannel_zarr_image(
         args.input_file,
