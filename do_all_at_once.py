@@ -105,7 +105,7 @@ def main():
     # upload images to s3
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     dataset_metadata = read_dataset_metadata(dataset_folder)
-    pbar = tqdm(total=len(zarr_file_paths))
+    pbar = tqdm(total=len(zarr_file_paths), leave=True)
     for source_name_of_volume in source_name_of_volumes:
         pbar.set_description(f"Upload data to s3, currently {file_path}")
         source_metadata = dataset_metadata["sources"][source_name_of_volume]
