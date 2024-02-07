@@ -1,5 +1,6 @@
 import json
 import os
+import warnings
 import requests
 from bs4 import BeautifulSoup
 import pickle
@@ -45,6 +46,22 @@ def get_supported_file_types(url=URL, scrape_again=False):
     with open("supported_file_types.txt", "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     return entries
+
+
+# TODO: is this the correct way of doing it?
+SUPPORTED_FILE_TYPES = get_supported_file_types()
+
+
+def is_format_supported(file_path, warn=False):
+    file_format = ".".join(os.path.split(file_path)[1].split(".")[1:])
+    if file_format in SUPPORTED_FILE_TYPES:
+        return True
+    if warn:
+        warnings.warn(
+            f"{file_format} is not a supported file format. "
+            "Skipping this file."
+        )
+    return False
 
 
 def main():

@@ -1,6 +1,5 @@
 import argparse
 import os
-import warnings
 
 from mobie.metadata import (
     add_remote_project_metadata,
@@ -13,24 +12,9 @@ from add_image_to_MoBIE_project import (
     pull_recent_repo_from_github,
     remove_tmp_folder
 )
-from scrape_supported_file_types_from_web import get_supported_file_types
+from scrape_supported_file_types_from_web import is_format_supported
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from update_project_on_github import stage_all_and_commit, sync_with_remote
-
-
-SUPPORTED_FILE_TYPES = get_supported_file_types()
-
-
-def is_supported(file, warn=False):
-    file_format = ".".join(os.path.split(file)[1].split(".")[1:])
-    if file_format in SUPPORTED_FILE_TYPES:
-        return True
-    if warn:
-        warnings.warn(
-            f"{file_format} is not a supported file format. "
-            "Skipping this file."
-        )
-    return False
 
 
 def check_input_data(input_data):
@@ -38,14 +22,14 @@ def check_input_data(input_data):
     # regex?
     if "," in input_data:  # comma-seperated list
         files = input_data.split(",")
-        files = [file for file in files if is_supported(file)]
-    elif is_supported(input_data):  # single file
-        files = [input_data] if is_supported(input_data) else []
+        files = [file for file in files if is_format_supported(file)]
+    elif is_format_supported(input_data):  # single file
+        files = [input_data] if is_format_supported(input_data) else []
     else:  # directory
         assert os.path.isdir(input_data)
         files = [
             os.path.join(input_data, file) for file in os.listdir(input_data)
-            if is_supported(file, warn=True)
+            if is_format_supported(file, warn=True)
         ]
     return files
 
