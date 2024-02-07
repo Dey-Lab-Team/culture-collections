@@ -26,9 +26,14 @@ events.*
 *.pt
 *.pth
 
+# files
+launch.json
+settings.json
+
 # directories
 data
 tmp
+understand_specs
 
 ## Copied from https://github.com/github/gitignore/blob/master/Python.gitignore
 
