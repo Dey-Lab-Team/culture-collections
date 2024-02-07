@@ -93,7 +93,7 @@ def main():
         return
     source_name_of_volumes = []
     pbar = tqdm(total=len(zarr_file_paths))
-    for file_path in args.input_data:
+    for zarr_file_path in zarr_file_paths:
         pbar.set_description(f"Add images to MoBIE, currently {file_path}")
         source_name_of_volume = add_multichannel_zarr_image(
             zarr_file_path,
