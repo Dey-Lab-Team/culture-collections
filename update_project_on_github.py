@@ -6,14 +6,39 @@ def stage_all_and_commit(msg="add new images"):
     subprocess.run(["git", "commit", "-m", msg])
 
 
+def pull():
+    pull_process = subprocess.run(
+        ["git", "pull"],
+        capture_output=True,
+        text=True
+    )
+    if pull_process.stderr:
+        print(pull_process.stderr)
+    return not pull_process.stderr
+
+
+def push():
+    push_process = subprocess.run(
+        ["git", "push"],
+        capture_output=True,
+        text=True
+    )
+    if push_process.stderr:
+        print(push_process.stderr)
+    return not push_process.stderr
+
+
 def sync_with_remote():
-    subprocess.run(["git", "pull"])
-    subprocess.run(["git", "push"])
+    is_pulled = pull()
+    if not is_pulled:
+        return False
+    is_pushed = push()
+    return is_pushed
 
 
 def main():
     stage_all_and_commit()
-    sync_with_remote()
+    _ = sync_with_remote()
 
 
 if __name__ == "__main__":

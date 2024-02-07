@@ -122,13 +122,15 @@ def main():
     # sync metadata with GitHub
     print("Syncing with GitHub...")
     stage_all_and_commit()
-    sync_with_remote()
-
-    # TODO: add try except here to catch if we have merge conflicts
-    # print all done accordingly
+    is_synced = sync_with_remote()
 
     # let user know we are done
-    print("All done!")
+    if is_synced:
+        print("All done!")
+    else:
+        print("Some errors occured while syncing with GitHub (see above)."
+              "Please check the output and resolve any conflicts"
+              "using git directly.")
 
 
 if __name__ == "__main__":
