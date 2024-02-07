@@ -5,21 +5,22 @@ import subprocess
 import shlex
 
 
-def generate_zarr_file_path(input_file):
-    file_name = os.path.split(input_file)[1].split('.')[0]
+def generate_zarr_file_path(input_file_path):
+    file_name = os.path.split(input_file_path)[1].split('.')[0]
     file_name += ".ome.zarr"
-    file_path = os.path.join(os.getcwd(), "tmp", file_name)
-    return file_path
+    output_file_path = os.path.join(os.getcwd(), "tmp", file_name)
+    return output_file_path
 
 
-def convert_to_ome_zarr(input_file, output_file):
+def convert_to_ome_zarr(input_file_path):
+    output_file_path = generate_zarr_file_path(input_file_path)
     # use subprocess to call bioformats2raw
-    cmd = f'bioformats2raw {input_file} {output_file} ' \
+    cmd = f'bioformats2raw {input_file_path} {output_file_path} ' \
         '--target-min-size 32 ' \
         '--scale-format-string "%2$d/"'
     cmd = shlex.split(cmd)
     subprocess.run(cmd)
-    return output_file
+    return output_file_path
 
 
 def get_args():
@@ -36,8 +37,7 @@ def get_args():
 
 def main():
     args = get_args()
-    zarr_file = generate_zarr_file_path(args.input_file)
-    _ = convert_to_ome_zarr(args.input_file, zarr_file)
+    _ = convert_to_ome_zarr(args.input_file)
 
 
 if __name__ == "__main__":
