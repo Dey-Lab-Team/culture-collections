@@ -9,12 +9,13 @@ from mobie.metadata import (
 from tqdm import tqdm
 from add_image_to_MoBIE_project import (
     add_multichannel_zarr_image,
-    pull_recent_repo_from_github,
     remove_tmp_folder
 )
 from scrape_supported_file_types_from_web import is_format_supported
 from convert_image_to_ome_zarr import convert_to_ome_zarr
-from update_project_on_github import stage_all_and_commit, sync_with_remote
+from update_project_on_github import (
+    pull, stage_all_and_commit, sync_with_remote
+)
 
 
 def check_input_data(input_data):
@@ -78,7 +79,11 @@ def main():
     pbar.close()
 
     # add images to MoBIE project
-    pull_recent_repo_from_github()
+    is_pulled = pull()
+    if not is_pulled:
+        print("Could not pull from GitHub. Please check the output and resolve"
+              "any conflicts using git directly.")
+        return
     source_name_of_volumes = []
     pbar = tqdm(total=len(zarr_file_paths))
     for file_path in args.input_data:

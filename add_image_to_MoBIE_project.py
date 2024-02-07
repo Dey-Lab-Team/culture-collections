@@ -1,11 +1,11 @@
 import argparse
 import os
 import shutil
-import subprocess
 import mobie
 import xml.etree.ElementTree as ET
 
 from calc_contrast import get_contrast_limits
+from update_project_on_github import pull
 
 
 DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
@@ -16,10 +16,6 @@ DEFAULT_NAMES_PER_CHANNEL = [
     "channel-3",
     "channel-4"
 ]
-
-
-def pull_recent_repo_from_github():
-    subprocess.run(["git", "pull"])
 
 
 def remove_tmp_folder():
@@ -166,7 +162,7 @@ def get_args():
 
 def main():
     args = get_args()
-    pull_recent_repo_from_github()
+    _ = pull()
     _ = add_multichannel_zarr_image(
         args.input_file,
         args.input_key,
