@@ -55,6 +55,13 @@ def get_args():
         "You defined this when you added the s3 to the minio"
         "client as an alias."
     )
+    parser.add_argument(
+        "--overwrite",
+        "-o",
+        default=False,
+        type=bool,
+        help="Whether to overwrite existing ome.zarr files in tmp folder."
+    )
     args = parser.parse_args()
     input_data = check_input_data(args.input_data)
     args.input_data = input_data

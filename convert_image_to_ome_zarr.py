@@ -12,8 +12,10 @@ def generate_zarr_file_path(input_file_path):
     return output_file_path
 
 
-def convert_to_ome_zarr(input_file_path):
+def convert_to_ome_zarr(input_file_path, overwrite=False):
     output_file_path = generate_zarr_file_path(input_file_path)
+    if os.path.exists(output_file_path) and not overwrite:
+        return output_file_path
     # use subprocess to call bioformats2raw
     cmd = f'bioformats2raw {input_file_path} {output_file_path} ' \
         '--target-min-size 32 ' \
