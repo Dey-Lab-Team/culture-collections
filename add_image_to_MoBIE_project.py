@@ -112,6 +112,7 @@ def add_multichannel_zarr_image(
         menu_name="volumes",
         overwrite=True
     )
+    return image_name
 
 
 def get_args():
@@ -166,7 +167,7 @@ def get_args():
 def main():
     args = get_args()
     pull_recent_repo_from_github()
-    add_multichannel_zarr_image(
+    _ = add_multichannel_zarr_image(
         args.input_file,
         args.input_key,
         args.mobie_project_folder,
