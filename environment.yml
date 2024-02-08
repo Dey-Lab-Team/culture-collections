@@ -1,0 +1,11 @@
+name: culture-collections
+channels:
+- conda-forge
+- ome
+dependencies:
+- beautifulsoup4
+- bioformats2raw
+- mobie_utils
+- z5py
+- zarr
+
