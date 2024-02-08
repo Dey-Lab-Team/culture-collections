@@ -20,7 +20,7 @@ def get_args():
     parser.add_argument(
         "--s3_alias",
         "-p",
-        default="embl",
+        default="culcol_s3_rw",
         type=str,
         help="Prefix of the s3 bucket."
     )
