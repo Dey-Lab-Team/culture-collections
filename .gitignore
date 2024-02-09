@@ -31,7 +31,7 @@ launch.json
 settings.json
 
 # directories
-data
+data/single_volumes/images
 tmp
 understand_specs
 
