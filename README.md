@@ -29,7 +29,7 @@ TODO:
 To update the MoBIE project you need write access to this GitHub repository. For this you need to have a GitHub account. If you don't have one yet, create one [here](https://github.com/). Then contact [Jonas Hellgoth](https://github.com/JonasHell) (easiest via [mail](mailto:jonas.hellgoth@embl.de)) to be added to the repository as a collaborator (this grants you write access to this GitHub repository).
 
 #### Write access to s3
-To upload data to the s3 bucket you need write access. For this please contact [Jonas Hellgoth](https://github.com/JonasHell). The easiest is via [mail](mailto:jonas.hellgoth@embl.de). You will recieve a key pair for read-write access. To interact with the s3 storage you need to install the MinIO client. Just follow the first step of [these instructions](https://min.io/docs/minio/linux/reference/minio-mc.html) for your operating system. You can check the installation success by running `mc --version` in your terminal.
+To upload data to the s3 bucket you need write access. For this please contact [Jonas Hellgoth](https://github.com/JonasHell). The easiest is via [mail](mailto:jonas.hellgoth@embl.de). You will recieve a key pair for read-write access. To interact with the s3 storage you need to install the MinIO client. Just follow the first step of [these instructions](https://min.io/docs/minio/linux/reference/minio-mc.html) for your operating system. You can check the installation success by running `mc --version` in your terminal. If `brew` throws an error saying you can try `xcode-select --install` do so and see if this works.
 
 Continue with step 2 of the instructions, use the following for the command `mc alias set ALIAS HOSTNAME ACCESS_KEY SECRET_KEY`:
 
@@ -75,6 +75,31 @@ Create the environment by running the following command. This will install all t
 mamba env create -f environment.yml
 ```
 Potentially you need to accept the installation by tiping `y` and hitting enter.
+
+### Manually adjust environment
+Unfortunately, we have to add some installations manually. The bugs causing these issues are already fixed, however, the new versions are not released yet. Therefore, conda/mamba only has access to the old versions. For now, we just add the fixed versions manually to our environment. First, activate the environment:
+```sh
+mamba activate culture-collections
+```
+Change the directory out of `culture-collections`:
+```sh
+cd ../
+```
+Clone the repository:
+```sh
+git clone git@github.com:mobie/mobie-utils-python.git
+```
+And install it:
+```sh
+pip install -e ./mobie-utils-python
+```
+Do the same for the other package:
+```sh
+git clone git@github.com:constantinpape/elf.git
+```
+```sh
+pip install -e ./elf
+```
 
 ### Open folder & activate environment
 To run a script make sure that you are inside the repository.
