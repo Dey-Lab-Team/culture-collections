@@ -6,9 +6,12 @@ def stage_all_and_commit(msg="add new images"):
     subprocess.run(["git", "commit", "-m", msg])
 
 
-def pull():
+def pull(rebase=False):
+    command = ["git", "pull"]
+    if rebase:
+        command.append("--rebase")
     pull_process = subprocess.run(
-        ["git", "pull"],
+        command,
         capture_output=True,
         text=True
     )
@@ -29,7 +32,7 @@ def push():
 
 
 def sync_with_remote():
-    is_pulled = pull()
+    is_pulled = pull(rebase=True)
     if not is_pulled:
         return False
     is_pushed = push()
