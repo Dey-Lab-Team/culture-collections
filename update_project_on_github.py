@@ -6,7 +6,7 @@ def stage_all_and_commit(msg="add new images"):
     subprocess.run(["git", "commit", "-m", msg])
 
 
-def pull(rebase=False):
+def pull(rebase: bool = False) -> bool:
     command = ["git", "pull"]
     if rebase:
         command.append("--rebase")
