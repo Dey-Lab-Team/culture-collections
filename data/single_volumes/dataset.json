@@ -69,6 +69,60 @@
         }
       }
     },
+    "5488_5533": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/5488_5533.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/5488_5533.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/5488_5533.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/5488_5533.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533.ome.zarr"
+          }
+        }
+      }
+    },
     "5488_5533_chunking-20-208-208": {
       "image": {
         "imageData": {
@@ -397,6 +451,54 @@
             "opacity": 1.0,
             "sources": [
               "2024-02-05_bmcc76_fm_nhs_centrin_tubulin_hoechst-dapi_018_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "5488_5533": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              15004
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              158
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              369,
+              1127
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch2"
             ]
           }
         }
