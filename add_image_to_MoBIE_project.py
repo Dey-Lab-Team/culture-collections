@@ -130,14 +130,14 @@ def get_args():
     parser.add_argument(
         "--mobie_project_folder",
         "-p",
-        default="./data",  # or os.getcwd()? or even hardcode?
+        default="data",  # or os.getcwd()? or even hardcode?
         type=str,
         help="Path to the MoBIE project folder.",
     )
     parser.add_argument(
         "--dataset_name",
         "-d",
-        default="all_volumes",
+        default="single_volumes",
         type=str,
         help="Name of the dataset to add the data to."
         "If it does not exist, it will be created.",
@@ -162,7 +162,11 @@ def get_args():
 
 def main():
     args = get_args()
-    _ = pull()
+    is_pulled = pull()
+    if not is_pulled:
+        print("Could not pull from GitHub. Please check the output and resolve"
+              "any conflicts using git directly.")
+        return
     _ = add_multichannel_zarr_image(
         args.input_file,
         args.input_key,
