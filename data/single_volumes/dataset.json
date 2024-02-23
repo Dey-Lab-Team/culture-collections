@@ -601,6 +601,54 @@
       ],
       "uiSelectionGroup": "volumes"
     },
+    "5488_5533_chunking-96-96-96": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
     "5488_5534": {
       "isExclusive": true,
       "sourceDisplays": [
