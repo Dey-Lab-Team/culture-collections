@@ -7,7 +7,7 @@ def get_args():
     parser.add_argument(
         "--dataset_folder",
         "-d",
-        default="data/all_volumes",
+        default="data/single_volumes",
         type=str,
         help="Path to the MoBIE dataset folder the source belongs to."
     )
