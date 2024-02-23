@@ -3,7 +3,7 @@ from elf.io import open_file
 import numpy as np
 
 
-def calc_contrast_limits(image):
+def calc_contrast_limits_fiji_style(image):
     # adapted from
     # https://forum.image.sc/t/macro-for-image-adjust-brightness-contrast-auto-button/37157/5
     min_value = image.min()
@@ -37,12 +37,29 @@ def calc_contrast_limits(image):
         max_value = min(int(min_value + histo_max * bin_size), max_value)
 
     # otherwise, just return the min and max of the image
-    return [min_value, max_value]
+    return min_value, max_value
 
 
-def get_contrast_limits(zarr_file_path, channel, zarr_key="1"):
+def calc_contrast_limits_percentile(image, percentile=(1, 99)):
+    lower_bound = np.percentile(image, percentile[0])
+    upper_bound = np.percentile(image, percentile[1])
+    return lower_bound, upper_bound
+
+
+def get_contrast_limits(
+    zarr_file_path, channel, zarr_key="1", func="percentile"
+):
     zarr_file = open_file(zarr_file_path, mode="r")
-    contrast_limits = calc_contrast_limits(zarr_file[zarr_key][0, channel])
+    if func == "percentile":
+        contrast_limits = calc_contrast_limits_percentile(
+            zarr_file[zarr_key][0, channel]
+        )
+    elif func == "fiji":
+        contrast_limits = calc_contrast_limits_fiji_style(
+            zarr_file[zarr_key][0, channel]
+        )
+    else:
+        raise ValueError(f"Unknown function {func}")
     return contrast_limits
 
 
