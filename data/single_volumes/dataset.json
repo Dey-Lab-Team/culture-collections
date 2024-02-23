@@ -69,6 +69,168 @@
         }
       }
     },
+    "5488_5533_chunking-20-208-208": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-20-208-208_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-20-208-208_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-20-208-208_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-20-208-208.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-64-128-128": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-64-128-128_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-64-128-128_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-64-128-128_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-64-128-128.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-96-96-96": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-96-96-96_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-96-96-96_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          }
+        }
+      }
+    },
+    "5488_5533_chunking-96-96-96_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/5488_5533_chunking-96-96-96.ome.zarr"
+          }
+        }
+      }
+    },
     "5488_5534": {
       "image": {
         "imageData": {
@@ -235,6 +397,150 @@
             "opacity": 1.0,
             "sources": [
               "2024-02-05_bmcc76_fm_nhs_centrin_tubulin_hoechst-dapi_018_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "5488_5533_chunking-20-208-208": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-20-208-208_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-20-208-208_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-20-208-208_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "5488_5533_chunking-64-128-128": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-64-128-128_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-64-128-128_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-64-128-128_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "5488_5533_chunking-96-96-96": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_chunking-96-96-96_ch2"
             ]
           }
         }
