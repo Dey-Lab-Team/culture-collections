@@ -47,16 +47,19 @@ def calc_contrast_limits_percentile(image, percentile=(0.1, 99.9)):
     return [int(lower_bound), int(upper_bound)]
 
 
-def get_contrast_limits(zarr_file_path, channel, zarr_key="1", func="percentile"):
+def get_contrast_limits(
+    zarr_file_path, channel, zarr_key="1", func="percentile", central_slice=True
+):
     zarr_file = open_file(zarr_file_path, mode="r")
+    zarr_array = zarr_file[zarr_key]
+    if central_slice:
+        image = zarr_array[0, channel, zarr_array.shape[2] // 2]
+    else:
+        image = zarr_array[0, channel]
     if func == "percentile":
-        contrast_limits = calc_contrast_limits_percentile(
-            zarr_file[zarr_key][0, channel]
-        )
+        contrast_limits = calc_contrast_limits_percentile(image)
     elif func == "fiji":
-        contrast_limits = calc_contrast_limits_fiji_style(
-            zarr_file[zarr_key][0, channel]
-        )
+        contrast_limits = calc_contrast_limits_fiji_style(image)
     else:
         raise ValueError(f"Unknown function {func}")
     return contrast_limits
