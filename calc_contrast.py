@@ -1,6 +1,7 @@
 import time
-from elf.io import open_file
+
 import numpy as np
+from elf.io import open_file
 
 
 def calc_contrast_limits_fiji_style(image):
@@ -40,15 +41,13 @@ def calc_contrast_limits_fiji_style(image):
     return [min_value, max_value]
 
 
-def calc_contrast_limits_percentile(image, percentile=(1, 99)):
+def calc_contrast_limits_percentile(image, percentile=(0.1, 99.9)):
     lower_bound = np.percentile(image, percentile[0])
     upper_bound = np.percentile(image, percentile[1])
     return [int(lower_bound), int(upper_bound)]
 
 
-def get_contrast_limits(
-    zarr_file_path, channel, zarr_key="1", func="percentile"
-):
+def get_contrast_limits(zarr_file_path, channel, zarr_key="1", func="percentile"):
     zarr_file = open_file(zarr_file_path, mode="r")
     if func == "percentile":
         contrast_limits = calc_contrast_limits_percentile(
@@ -64,8 +63,10 @@ def get_contrast_limits(
 
 
 def main():
-    file_path = "/home/hellgoth/Documents/work/projects/" \
+    file_path = (
+        "/home/hellgoth/Documents/work/projects/"
         "culture-collections_project/converted_copy/5488_5534.ome.zarr"
+    )
     zarr_file = open_file(file_path, mode="r")
     print(zarr_file)
     for key in range(8):
@@ -73,7 +74,7 @@ def main():
         s = time.time()
         contrast_limits = get_contrast_limits(file_path, zarr_key=key)
         e = time.time()
-        print(contrast_limits, e-s)
+        print(contrast_limits, e - s)
 
 
 if __name__ == "__main__":
