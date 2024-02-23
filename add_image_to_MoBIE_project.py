@@ -19,6 +19,8 @@ DEFAULT_NAMES_PER_CHANNEL = [
 
 
 def remove_tmp_folder():
+    if not os.path.exists("tmp"):
+        return
     # maybe the safety if statement can be removed
     if len(os.listdir("tmp")) == 0:
         shutil.rmtree("tmp")
