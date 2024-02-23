@@ -37,13 +37,13 @@ def calc_contrast_limits_fiji_style(image):
         max_value = min(int(min_value + histo_max * bin_size), max_value)
 
     # otherwise, just return the min and max of the image
-    return min_value, max_value
+    return [min_value, max_value]
 
 
 def calc_contrast_limits_percentile(image, percentile=(1, 99)):
     lower_bound = np.percentile(image, percentile[0])
     upper_bound = np.percentile(image, percentile[1])
-    return lower_bound, upper_bound
+    return [int(lower_bound), int(upper_bound)]
 
 
 def get_contrast_limits(
