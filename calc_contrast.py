@@ -48,7 +48,7 @@ def calc_contrast_limits_percentile(image, percentile=(0.1, 99.9)):
 
 
 def get_contrast_limits(
-    zarr_file_path, channel, zarr_key="1", func="percentile", central_slice=True
+    zarr_file_path, channel, zarr_key="0", func="percentile", central_slice=True
 ):
     zarr_file = open_file(zarr_file_path, mode="r")
     zarr_array = zarr_file[zarr_key]
