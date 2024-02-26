@@ -39,9 +39,6 @@ def sync_with_remote():
     return is_pushed
 
 
-# make changes to test
-
-
 def main():
     stage_all_and_commit()
     _ = sync_with_remote()
