@@ -16,8 +16,10 @@ def pull(rebase: bool = False) -> bool:
     return not pull_process.stderr
 
 
-def push():
-    push_process = subprocess.run(["git", "push"], capture_output=True, text=True)
+def push(remote: str = "origin", branch: str = "main"):
+    push_process = subprocess.run(
+        ["git", "push", remote, branch], capture_output=True, text=True
+    )
     if push_process.stderr:
         print(push_process.stderr)
     return not push_process.stderr
