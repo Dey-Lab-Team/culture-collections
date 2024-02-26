@@ -1,10 +1,12 @@
 import time
+from typing import Any
 
 import numpy as np
+import numpy.typing as npt
 from elf.io import open_file
 
 
-def calc_contrast_limits_fiji_style(image):
+def calc_contrast_limits_fiji_style(image: npt.NDArray[Any]) -> list[int]:
     # adapted from
     # https://forum.image.sc/t/macro-for-image-adjust-brightness-contrast-auto-button/37157/5
     min_value = image.min()
@@ -41,15 +43,21 @@ def calc_contrast_limits_fiji_style(image):
     return [min_value, max_value]
 
 
-def calc_contrast_limits_percentile(image, percentile=(0.1, 99.9)):
+def calc_contrast_limits_percentile(
+    image: npt.NDArray[Any], percentile: tuple[float, float] = (0.1, 99.9)
+) -> list[int]:
     lower_bound = np.percentile(image, percentile[0])
     upper_bound = np.percentile(image, percentile[1])
     return [int(lower_bound), int(upper_bound)]
 
 
 def get_contrast_limits(
-    zarr_file_path, channel, zarr_key="0", func="percentile", central_slice=True
-):
+    zarr_file_path: str,
+    channel: int,
+    zarr_key: str = "0",
+    func: str = "percentile",
+    central_slice: bool = True,
+) -> list[int]:
     zarr_file = open_file(zarr_file_path, mode="r")
     zarr_array = zarr_file[zarr_key]
     if central_slice:

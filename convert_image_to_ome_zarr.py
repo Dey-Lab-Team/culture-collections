@@ -4,14 +4,18 @@ import shlex
 import subprocess
 
 
-def generate_zarr_file_path(input_file_path):
+def generate_zarr_file_path(input_file_path: str):
     file_name = os.path.split(input_file_path)[1].split(".")[0]
     file_name += ".ome.zarr"
     output_file_path = os.path.join(os.getcwd(), "tmp", file_name)
     return output_file_path
 
 
-def convert_to_ome_zarr(input_file_path, overwrite=False, chunk_size=(96, 96, 96)):
+def convert_to_ome_zarr(
+    input_file_path: str,
+    overwrite: bool = False,
+    chunk_size: tuple[int, int, int] = (96, 96, 96),
+) -> str:
     output_file_path = generate_zarr_file_path(input_file_path)
     if os.path.exists(output_file_path) and not overwrite:
         return output_file_path

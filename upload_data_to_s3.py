@@ -1,5 +1,6 @@
 import argparse
-from mobie.metadata import upload_source, read_dataset_metadata
+
+from mobie.metadata import read_dataset_metadata, upload_source
 
 
 def get_args():
@@ -9,20 +10,17 @@ def get_args():
         "-d",
         default="data/single_volumes",
         type=str,
-        help="Path to the MoBIE dataset folder the source belongs to."
+        help="Path to the MoBIE dataset folder the source belongs to.",
     )
     parser.add_argument(
-        "--source",
-        "-s",
-        type=str,
-        help="Name of the source to upload."
+        "--source", "-s", type=str, help="Name of the source to upload."
     )
     parser.add_argument(
         "--s3_alias",
         "-p",
         default="culcol_s3_rw",
         type=str,
-        help="Prefix of the s3 bucket."
+        help="Prefix of the s3 bucket.",
     )
     return parser.parse_args()
 
@@ -36,7 +34,7 @@ def main():
         metadata=source_metadata,
         data_format="ome.zarr",
         bucket_name="culture-collections/data",
-        s3_prefix=args.s3_alias
+        s3_prefix=args.s3_alias,
     )
 
 

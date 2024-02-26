@@ -1,21 +1,17 @@
 import argparse
 import os
 import shutil
-import mobie
 import xml.etree.ElementTree as ET
+from typing import Any
+
+import mobie
 
 from calc_contrast import get_contrast_limits
 from update_project_on_github import pull
 
-
 DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
 # TODO: read them from file name?
-DEFAULT_NAMES_PER_CHANNEL = [
-    "channel-1",
-    "channel-2",
-    "channel-3",
-    "channel-4"
-]
+DEFAULT_NAMES_PER_CHANNEL = ["channel-1", "channel-2", "channel-3", "channel-4"]
 
 
 def remove_tmp_folder():
@@ -26,7 +22,7 @@ def remove_tmp_folder():
         shutil.rmtree("tmp")
 
 
-def get_number_of_channels_from_ome_metadata(xml_file):
+def get_number_of_channels_from_ome_metadata(xml_file: str) -> int:
     tree = ET.parse(xml_file)
     root = tree.getroot()
     # all the tags have this weird prefix
@@ -40,15 +36,15 @@ def get_number_of_channels_from_ome_metadata(xml_file):
 
 
 def add_multichannel_zarr_image(
-    zarr_file,
-    zarr_key,
-    mobie_project_directory,
-    dataset_name,
-    is_default_dataset=False,
-    calculate_contrast_limits=True
+    zarr_file: str,
+    zarr_key: str,
+    mobie_project_directory: str,
+    dataset_name: str,
+    is_default_dataset: bool = False,
+    calculate_contrast_limits: bool = True,
 ):
     file_format = "ome.zarr"
-    image_name = zarr_file.split('/')[-1].split('.')[0]
+    image_name = zarr_file.split("/")[-1].split(".")[0]
     xml_file = os.path.join(zarr_file, "OME/METADATA.ome.xml")
     num_channels = get_number_of_channels_from_ome_metadata(xml_file)
     sources = [f"{image_name}_ch{channel}" for channel in range(num_channels)]
@@ -58,26 +54,24 @@ def add_multichannel_zarr_image(
     # so it should not matter if we call this multiple times (for each
     # channel)
     mobie.add_image(
-            input_path=zarr_file,
-            input_key=zarr_key,
-            root=mobie_project_directory,
-            dataset_name=dataset_name,
-            image_name=image_name,
-            file_format=file_format,
-            view={},  # manually add view at the end
-            is_default_dataset=is_default_dataset,
-            move_only=True,
-            resolution=None,  # not needed since we just move data
-            chunks=None,  # not needed since we just move data
-            scale_factors=None,  # not needed since we just move data
-        )
+        input_path=zarr_file,
+        input_key=zarr_key,
+        root=mobie_project_directory,
+        dataset_name=dataset_name,
+        image_name=image_name,
+        file_format=file_format,
+        view={},  # manually add view at the end
+        is_default_dataset=is_default_dataset,
+        move_only=True,
+        resolution=None,  # not needed since we just move data
+        chunks=None,  # not needed since we just move data
+        scale_factors=None,  # not needed since we just move data
+    )
     # add each channel as a seperate source
     for channel, channel_name in enumerate(sources):
         dataset_folder = os.path.join(mobie_project_directory, dataset_name)
         image_data_path, image_metadata_path = mobie.utils.get_internal_paths(
-            dataset_folder,
-            file_format,
-            image_name
+            dataset_folder, file_format, image_name
         )
         mobie.metadata.add_source_to_dataset(
             dataset_folder=dataset_folder,
@@ -85,20 +79,17 @@ def add_multichannel_zarr_image(
             source_name=channel_name,
             image_metadata_path=image_metadata_path,
             view={},
-            channel=channel
+            channel=channel,
         )
     # set color and contrast limits for each channel
-    display_settings = [
-        {
-            "color": DEFAULT_COLORS_PER_CHANNEL[channel]
-        }
+    display_settings: list[dict[str, Any]] = [
+        {"color": DEFAULT_COLORS_PER_CHANNEL[channel]}
         for channel in range(num_channels)
     ]
     if calculate_contrast_limits:  # flag since this can take a few seconds
         for channel, channel_settings in enumerate(display_settings):
             channel_settings["contrastLimits"] = get_contrast_limits(
-                image_data_path,  # should be the same for all channels
-                channel
+                image_data_path, channel  # should be the same for all channels
             )
     # add one view to visualize all channels at once
     mobie.view_utils.create_view(
@@ -108,7 +99,7 @@ def add_multichannel_zarr_image(
         display_settings=display_settings,
         display_group_names=DEFAULT_NAMES_PER_CHANNEL[:num_channels],
         menu_name="volumes",
-        overwrite=True
+        overwrite=True,
     )
     return image_name
 
@@ -157,7 +148,7 @@ def get_args():
         default=True,
         type=bool,
         help="Whether to calculate contrast limits for the image."
-        "Makes adding the image slower, but the image will look better."
+        "Makes adding the image slower, but the image will look better.",
     )
     return parser.parse_args()
 
@@ -166,8 +157,10 @@ def main():
     args = get_args()
     is_pulled = pull()
     if not is_pulled:
-        print("Could not pull from GitHub. Please check the output and resolve"
-              "any conflicts using git directly.")
+        print(
+            "Could not pull from GitHub. Please check the output and resolve"
+            "any conflicts using git directly."
+        )
         return
     _ = add_multichannel_zarr_image(
         args.input_file,
@@ -175,7 +168,7 @@ def main():
         args.mobie_project_folder,
         args.dataset_name,
         args.is_default_dataset,
-        args.calculate_contrast_limits
+        args.calculate_contrast_limits,
     )
     remove_tmp_folder()
 
