@@ -13,7 +13,7 @@ def pull(rebase: bool = False) -> bool:
     pull_process = subprocess.run(command, capture_output=True, text=True)
     if pull_process.stderr:
         print(pull_process.stderr)
-    return not pull_process.stderr
+    return not pull_process.returncode
 
 
 def push(remote: str = "origin", branch: str = "main"):
