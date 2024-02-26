@@ -1,7 +1,7 @@
 import subprocess
 
 
-def stage_all_and_commit(msg="add new images"):
+def stage_all_and_commit(msg: str = "add new images"):
     subprocess.run(["git", "add", "-A"])
     subprocess.run(["git", "commit", "-m", msg])
 
