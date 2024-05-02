@@ -14,68 +14,17 @@ from scrape_supported_file_types_from_web import is_format_supported
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
 
 
-def check_input_data(input_data: str):
-    # TODO: is there a better way than the comma-seperated list?
-    # regex?
-    if "," in input_data:  # comma-seperated list
-        files = input_data.split(",")
-        files = [file for file in files if is_format_supported(file)]
-    elif is_format_supported(input_data):  # single file
-        files = [input_data] if is_format_supported(input_data) else []
-    else:  # directory
-        assert os.path.isdir(input_data)
-        files = [
-            os.path.join(input_data, file)
-            for file in os.listdir(input_data)
-            if is_format_supported(file, warn=True)
-        ]
-    return files
-
-
-def get_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--input_data",
-        "-d",
-        type=str,
-        help="Path to the input data. Can be either a single file"
-        "(identified by a dot in the file name),"
-        "a comma-seperated (no spaces) list of files"
-        "or a directory containing multiple files.",
-    )
-    parser.add_argument(
-        "--s3_alias",
-        "-p",
-        default="culcol_s3_rw",
-        type=str,
-        help="Prefix of the s3 bucket."
-        "You defined this when you added the s3 to the minio"
-        "client as an alias.",
-    )
-    parser.add_argument(
-        "--overwrite",
-        "-o",
-        default=False,
-        type=bool,
-        help="Whether to overwrite existing ome.zarr files in tmp folder.",
-    )
-    args = parser.parse_args()
-    input_data = check_input_data(args.input_data)
-    args.input_data = input_data
-    return args
-
-
-def main():
-    # get input arguments
-    args = get_args()
-    mobie_project_directory = "data"
-    dataset_name = "single_volumes"
-    bucket_name = "culture-collections/data"
-
+def do_all_at_once(
+    input_files: list[str],
+    mobie_project_directory: str = "data",
+    dataset_name: str = "single_volumes",
+    bucket_name: str = "culture-collections/data",
+    s3_alias: str = "culcol_s3_rw",
+):
     # convert images to ome-zarr
     zarr_file_paths: list[str] = []
-    pbar = tqdm(total=len(args.input_data))
-    for file_path in args.input_data:
+    pbar = tqdm(total=len(input_files))
+    for file_path in input_files:
         pbar.set_description(f"Converting files, currently {file_path}")
         zarr_file_path = convert_to_ome_zarr(file_path)
         zarr_file_paths.append(zarr_file_path)
@@ -126,7 +75,7 @@ def main():
             metadata=source_metadata,
             data_format="ome.zarr",
             bucket_name=bucket_name,
-            s3_prefix=args.s3_alias,
+            s3_prefix=s3_alias,
         )
         pbar.update(1)
     pbar.close()
@@ -147,6 +96,62 @@ def main():
         )
 
 
+def check_input_data(input_data: str):
+    # TODO: is there a better way than the comma-seperated list?
+    # regex?
+    if "," in input_data:  # comma-seperated list
+        files = input_data.split(",")
+        files = [file for file in files if is_format_supported(file)]
+    elif is_format_supported(input_data):  # single file
+        files = [input_data] if is_format_supported(input_data) else []
+    else:  # directory
+        assert os.path.isdir(input_data)
+        files = [
+            os.path.join(input_data, file)
+            for file in os.listdir(input_data)
+            if is_format_supported(file, warn=True)
+        ]
+    return files
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input_data",
+        "-d",
+        type=str,
+        help="Path to the input data. Can be either a single file"
+        "(identified by a dot in the file name),"
+        "a comma-seperated (no spaces) list of files"
+        "or a directory containing multiple files.",
+    )
+    parser.add_argument(
+        "--s3_alias",
+        "-p",
+        default="culcol_s3_rw",
+        type=str,
+        help="Prefix of the s3 bucket."
+        "You defined this when you added the s3 to the minio"
+        "client as an alias.",
+    )
+    parser.add_argument(
+        "--overwrite",
+        "-o",
+        default=False,
+        type=bool,
+        help="Whether to overwrite existing ome.zarr files in tmp folder.",
+    )
+    args = parser.parse_args()
+    return args
+
+
+def main():
+    # get input arguments
+    args = get_args()
+    input_files = check_input_data(args.input_data)
+    do_all_at_once(input_files=input_files, s3_alias=args.s3_alias)
+
+
 if __name__ == "__main__":
     main()
 
@@ -154,8 +159,6 @@ if __name__ == "__main__":
 # TODO:
 # decide on default view? thumbnail for each dataset?
 # other datasets? per species? grid views?
-
-# change all_volumes to single_volumes
 
 # add subprocess to install minio client?
 # or is this possible in docker, then just add the alias
