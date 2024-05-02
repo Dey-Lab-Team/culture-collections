@@ -747,6 +747,162 @@
     },
     "default": {
       "uiSelectionGroup": "bookmark"
+    },
+    "test_grid_view": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              15004
+            ],
+            "name": "5488_5533_ch0",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              158
+            ],
+            "name": "5488_5533_ch1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              369,
+              1127
+            ],
+            "name": "5488_5533_ch2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "5488_5534_ch0",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5534_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "5488_5534_ch1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5534_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "5488_5534_ch2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5534_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              5681
+            ],
+            "name": "5810_6123_ch0",
+            "opacity": 1.0,
+            "sources": [
+              "5810_6123_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              121
+            ],
+            "name": "5810_6123_ch1",
+            "opacity": 1.0,
+            "sources": [
+              "5810_6123_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              551
+            ],
+            "name": "5810_6123_ch2",
+            "opacity": 1.0,
+            "sources": [
+              "5810_6123_ch2"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "transformedGrid": {
+            "centerAtOrigin": true,
+            "nestedSources": [
+              [
+                "5488_5533_ch0",
+                "5488_5533_ch1",
+                "5488_5533_ch2"
+              ],
+              [
+                "5488_5534_ch0",
+                "5488_5534_ch1",
+                "5488_5534_ch2"
+              ],
+              [
+                "5810_6123_ch0",
+                "5810_6123_ch1",
+                "5810_6123_ch2"
+              ]
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "test_species"
     }
   }
 }
