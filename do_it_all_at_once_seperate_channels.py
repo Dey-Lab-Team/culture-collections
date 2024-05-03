@@ -22,19 +22,15 @@ def do_all_at_once_seperate_channels(
     s3_alias: str = "culcol_s3_rw",
 ):
     # convert images to ome-zarr
-    # channel_zarr_file_paths: list[str] = []
-    # pbar = tqdm(total=len(channel_files))
-    # for file_path in channel_files:
-    #     pbar.set_description(f"Converting files, currently {file_path}")
-    #     # TODO: catch special case that there are multiple volumes in one file
-    #     zarr_file_path = convert_to_ome_zarr(file_path)
-    #     channel_zarr_file_paths.append(zarr_file_path)
-    #     pbar.update(1)
-    # pbar.close()
-    channel_zarr_file_paths = [
-        "/home/hellgoth/Documents/work/projects/culture-collections_project/culture-collections/tmp/Point0000_ChannelCy5_(Single_EM)_Seq0000.ome.zarr",
-        "/home/hellgoth/Documents/work/projects/culture-collections_project/culture-collections/tmp/Point0000_ChannelTRITC_(Single_EM)_Seq0001.ome.zarr",
-    ]
+    channel_zarr_file_paths: list[str] = []
+    pbar = tqdm(total=len(channel_files))
+    for file_path in channel_files:
+        pbar.set_description(f"Converting files, currently {file_path}")
+        # TODO: catch special case that there are multiple volumes in one file
+        zarr_file_path = convert_to_ome_zarr(file_path)
+        channel_zarr_file_paths.append(zarr_file_path)
+        pbar.update(1)
+    pbar.close()
 
     # add images to MoBIE project
     is_pulled = pull()
