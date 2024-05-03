@@ -44,7 +44,7 @@ def add_multichannel_zarr_image(
     calculate_contrast_limits: bool = True,
 ):
     file_format = "ome.zarr"
-    image_name = zarr_file.split("/")[-1].split(".")[0]
+    image_name = os.path.basename(zarr_file).split(".")[0]
     xml_file = os.path.join(zarr_file, "OME/METADATA.ome.xml")
     num_channels = get_number_of_channels_from_ome_metadata(xml_file)
     sources = [f"{image_name}_ch{channel}" for channel in range(num_channels)]
@@ -102,6 +102,68 @@ def add_multichannel_zarr_image(
         overwrite=True,
     )
     return image_name
+
+
+def add_image_with_seperate_channels(
+    channel_zarr_files: list[str],
+    channel_zarr_keys: list[str],
+    mobie_project_directory: str,
+    dataset_name: str,
+    view_name: str,
+    is_default_dataset: bool = False,
+    calculate_contrast_limits: bool = True,
+):
+    file_format = "ome.zarr"
+    num_channels = len(channel_zarr_files)
+    dataset_folder = os.path.join(mobie_project_directory, dataset_name)
+    # create color and contrast limits for each channel
+    display_settings: list[dict[str, Any]] = [
+        {"color": DEFAULT_COLORS_PER_CHANNEL[channel]}
+        for channel in range(num_channels)
+    ]
+    channel_names: list[str] = []
+    for channel, (zarr_file, zarr_key) in enumerate(
+        zip(channel_zarr_files, channel_zarr_keys)
+    ):
+        channel_name = os.path.basename(zarr_file).split(".")[0]
+        channel_names.append(channel_name)
+        # add image volume once (by this added as a source, but never used as one)
+        # just move data, don't copy, apparently internally only changes
+        # pointer not moving a single byte (as long as on same filesystem),
+        # so it should not matter if we call this multiple times (for each
+        # channel)
+        mobie.add_image(
+            input_path=zarr_file,
+            input_key=zarr_key,
+            root=mobie_project_directory,
+            dataset_name=dataset_name,
+            image_name=channel_name,
+            file_format=file_format,
+            view={},  # manually add view at the end
+            is_default_dataset=is_default_dataset,
+            move_only=True,
+            resolution=None,  # not needed since we just move data
+            chunks=None,  # not needed since we just move data
+            scale_factors=None,  # not needed since we just move data
+        )
+        if calculate_contrast_limits:  # flag since this can take a few seconds
+            image_data_path, _ = mobie.utils.get_internal_paths(
+                dataset_folder, file_format, channel_name
+            )
+            display_settings[channel]["contrastLimits"] = get_contrast_limits(
+                zarr_file_path=image_data_path, channel=0
+            )
+    # add one view to visualize all channels at once
+    mobie.view_utils.create_view(
+        dataset_folder=dataset_folder,
+        view_name=view_name,
+        sources=[[source] for source in channel_names],
+        display_settings=display_settings,
+        display_group_names=DEFAULT_NAMES_PER_CHANNEL[:num_channels],
+        menu_name="volumes",
+        overwrite=True,
+    )
+    return channel_names
 
 
 def get_args():

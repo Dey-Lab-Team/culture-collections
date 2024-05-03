@@ -63,7 +63,7 @@ def is_format_supported(file_path: str, warn: bool = False):
         return True
     if warn:
         warnings.warn(
-            f"{file_format} is not a supported file format. " "Skipping this file."
+            f"{file_format} is not a supported file format. Ignoring this file."
         )
     return False
 
