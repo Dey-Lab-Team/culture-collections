@@ -147,7 +147,15 @@ To do all at once just run:
 ```sh
 python do_all_at_once.py -d <your_input_data>
 ```
-`<your_input_data>` can either be a single file path, a comma-seperated list of file paths (no spaces after the commas) or a directory. In the last case all files in this directory will be added. Only files supported by [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) can be added, others are skipped. `supported_file_types.txt` contains a list of currently supported file formats. This list is also available [here](https://bio-formats.readthedocs.io/en/v7.1.0/supported-formats.html). This is checked by the script and nothing you need to take care of. Unless, your file format is not supported. In this case you need to find a different way to convert it to `ome-zarr`. If this happens please contact [Jonas Hellgoth](https://github.com/JonasHell) via [mail](mailto:jonas.hellgoth@embl.de).
+`<your_input_data>` can either be a single file path, a list of file paths or a directory. In the last case all files in this directory will be added. Only files supported by [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) can be added, others are skipped. `supported_file_types.txt` contains a list of currently supported file formats. This list is also available [here](https://bio-formats.readthedocs.io/en/v7.1.0/supported-formats.html). This is checked by the script and nothing you need to take care of. Unless, your file format is not supported. In this case you need to find a different way to convert it to `ome-zarr`. If this happens please contact [Jonas Hellgoth](https://github.com/JonasHell) via [mail](mailto:jonas.hellgoth@embl.de). Furthermore, the pipeline also support files containing multiple volumes (solved via the series dimension). Again, nothing you need to take care of.
+
+#### Special case - channels are in seperate files
+In some cases the individual channels of a volume are saved in different files. In this case please use the following script:
+
+```sh
+python do_all_at_once_seperate_channels.py -d <your_input_data>
+```
+Here, `<your_input_data>` is expected to be a list of the files containing the individual channels (please provide them in the correct order), thus, this script can only handle a single volume at a time.
 
 ### Other scripts
 All other python files can also be run as scripts. They do single steps of the pipeline. To get more information you can run
