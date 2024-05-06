@@ -54,6 +54,45 @@
           }
         }
       }
+    },
+    "5488_5533_withSeries": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/5488_5533_withSeries.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "5488_5533_withSeries_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/5488_5533_withSeries.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "5488_5533_withSeries_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/5488_5533_withSeries.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "5488_5533_withSeries_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/5488_5533_withSeries.ome.zarr/0"
+          }
+        }
+      }
     }
   },
   "views": {
@@ -99,6 +138,54 @@
             "opacity": 1.0,
             "sources": [
               "5488_5533_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "5488_5533_withSeries": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              15014
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_withSeries_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              158
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_withSeries_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              369,
+              1127
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "5488_5533_withSeries_ch2"
             ]
           }
         }
