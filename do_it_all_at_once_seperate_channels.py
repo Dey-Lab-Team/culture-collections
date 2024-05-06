@@ -43,7 +43,6 @@ def do_all_at_once_seperate_channels(
 
     source_name_of_volumes = add_image_with_seperate_channels(
         channel_zarr_files=channel_zarr_file_paths,
-        channel_zarr_keys=["0"] * len(channel_zarr_file_paths),
         mobie_project_directory=mobie_project_directory,
         dataset_name=dataset_name,
         view_name=view_name,

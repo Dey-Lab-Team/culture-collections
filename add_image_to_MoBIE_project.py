@@ -37,7 +37,6 @@ def get_number_of_channels_from_ome_metadata(xml_file: str) -> int:
 
 def add_multichannel_zarr_image(
     zarr_file: str,
-    zarr_key: str,
     mobie_project_directory: str,
     dataset_name: str,
     is_default_dataset: bool = False,
@@ -55,7 +54,7 @@ def add_multichannel_zarr_image(
     # channel)
     mobie.add_image(
         input_path=zarr_file,
-        input_key=zarr_key,
+        input_key=0,
         root=mobie_project_directory,
         dataset_name=dataset_name,
         image_name=image_name,
@@ -106,7 +105,6 @@ def add_multichannel_zarr_image(
 
 def add_image_with_seperate_channels(
     channel_zarr_files: list[str],
-    channel_zarr_keys: list[str],
     mobie_project_directory: str,
     dataset_name: str,
     view_name: str,
@@ -122,9 +120,7 @@ def add_image_with_seperate_channels(
         for channel in range(num_channels)
     ]
     channel_names: list[str] = []
-    for channel, (zarr_file, zarr_key) in enumerate(
-        zip(channel_zarr_files, channel_zarr_keys)
-    ):
+    for channel, zarr_file in enumerate(channel_zarr_files):
         channel_name = os.path.basename(zarr_file).split(".")[0]
         channel_names.append(channel_name)
         # add image volume once (by this added as a source, but never used as one)
@@ -134,7 +130,7 @@ def add_image_with_seperate_channels(
         # channel)
         mobie.add_image(
             input_path=zarr_file,
-            input_key=zarr_key,
+            input_key=0,
             root=mobie_project_directory,
             dataset_name=dataset_name,
             image_name=channel_name,
@@ -174,13 +170,6 @@ def get_args():
         type=str,
         help="Path to the input file. Must be a zarr file converted by"
         "bioformats2raw.",
-    )
-    parser.add_argument(
-        "--input_key",
-        "-k",
-        default="0",
-        type=str,
-        help="Key of the data inside the input file.",
     )
     parser.add_argument(
         "--mobie_project_folder",

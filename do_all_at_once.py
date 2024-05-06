@@ -96,7 +96,6 @@ def do_all_at_once(
         pbar.set_description(f"Add images to MoBIE, currently {file_name}")
         source_name_of_volume = add_multichannel_zarr_image(
             zarr_file_path,
-            zarr_key="0",
             mobie_project_directory=mobie_project_directory,
             dataset_name=dataset_name,
         )
