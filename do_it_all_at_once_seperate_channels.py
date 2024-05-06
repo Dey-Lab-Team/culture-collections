@@ -50,7 +50,7 @@ def do_all_at_once_seperate_channels(
     remove_tmp_folder()
 
     update_remote_project(
-        source_name_of_volumes=source_name_of_volumes,
+        image_data_paths=source_name_of_volumes,
         mobie_project_directory=mobie_project_directory,
         dataset_name=dataset_name,
         bucket_name=bucket_name,

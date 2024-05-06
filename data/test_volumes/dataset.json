@@ -55,15 +55,6 @@
         }
       }
     },
-    "5488_5533_withSeries": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "relativePath": "images/ome-zarr/5488_5533_withSeries.ome.zarr/0"
-          }
-        }
-      }
-    },
     "5488_5533_withSeries_ch0": {
       "image": {
         "imageData": {

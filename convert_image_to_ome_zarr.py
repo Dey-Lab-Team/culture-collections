@@ -26,7 +26,6 @@ def convert_to_ome_zarr(
     cmd = (
         f"bioformats2raw {input_file_path} {output_file_path} "
         "--target-min-size 32 "
-        '--scale-format-string "%2$d/" '
         f"-z {chunk_size[0]} "
         f"-h {chunk_size[1]} "
         f"-w {chunk_size[2]}"

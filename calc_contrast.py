@@ -53,8 +53,8 @@ def calc_contrast_limits_percentile(
 
 def get_contrast_limits(
     zarr_file_path: str,
+    zarr_key: str,
     channel: int,
-    zarr_key: str = "0",
     func: str = "percentile",
     central_slice: bool = True,
 ) -> list[int]:

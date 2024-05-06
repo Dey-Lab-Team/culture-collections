@@ -13,10 +13,11 @@ from add_image_to_MoBIE_project import add_multichannel_zarr_image, remove_tmp_f
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from scrape_supported_file_types_from_web import is_format_supported
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
+from upload_to_s3 import upload_to_s3
 
 
 def update_remote_project(
-    source_name_of_volumes: list[str],
+    image_data_paths: list[str],
     mobie_project_directory: str,
     dataset_name: str,
     bucket_name: str,
@@ -26,23 +27,18 @@ def update_remote_project(
     print("Adding s3 metadata...")
     add_remote_project_metadata(
         root=mobie_project_directory,
-        bucket_name=bucket_name,
+        bucket_name=bucket_name + "/data",
         service_endpoint="https://s3.embl.de",
     )
 
     # upload images to s3
-    dataset_folder = os.path.join(mobie_project_directory, dataset_name)
-    dataset_metadata = read_dataset_metadata(dataset_folder)
-    pbar = tqdm(total=len(source_name_of_volumes), leave=True)
-    for source_name_of_volume in source_name_of_volumes:
-        pbar.set_description(f"Upload data to s3, currently {source_name_of_volume}")
-        source_metadata = dataset_metadata["sources"][source_name_of_volume]
-        upload_source(
-            dataset_folder=dataset_folder,
-            metadata=source_metadata,
-            data_format="ome.zarr",
-            bucket_name=bucket_name,
+    pbar = tqdm(total=len(image_data_paths), leave=True)
+    for data_path in image_data_paths:
+        pbar.set_description(f"Upload data to s3, currently {data_path}")
+        upload_to_s3(
+            relative_path_local=data_path,
             s3_prefix=s3_alias,
+            bucket_name=bucket_name,
         )
         pbar.update(1)
     pbar.close()
@@ -67,7 +63,7 @@ def do_all_at_once(
     input_files: list[str],
     mobie_project_directory: str = "data",
     dataset_name: str = "single_volumes",
-    bucket_name: str = "culture-collections/data",
+    bucket_name: str = "culture-collections",
     s3_alias: str = "culcol_s3_rw",
 ):
     # convert images to ome-zarr
@@ -105,7 +101,7 @@ def do_all_at_once(
     remove_tmp_folder()
 
     update_remote_project(
-        source_name_of_volumes=source_name_of_volumes,
+        image_data_paths=source_name_of_volumes,
         mobie_project_directory=mobie_project_directory,
         dataset_name=dataset_name,
         bucket_name=bucket_name,
