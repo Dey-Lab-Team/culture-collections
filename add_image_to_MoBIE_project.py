@@ -95,8 +95,8 @@ def add_multichannel_zarr_image(
                 channel_settings["contrastLimits"] = get_contrast_limits(
                     # should be the same for all channels
                     zarr_file_path=image_data_path,
-                    channel=channel,
                     zarr_key=zarr_key,
+                    channel=channel,
                 )
             sources.append([channel_specific_name])
         # add one view to visualize all channels at once
@@ -110,78 +110,6 @@ def add_multichannel_zarr_image(
             overwrite=True,
         )
     return image_data_path
-
-
-def add_image_with_seperate_channels(
-    channel_zarr_files: list[str],
-    mobie_project_directory: str,
-    dataset_name: str,
-    view_name: str,
-    is_default_dataset: bool = False,
-    calculate_contrast_limits: bool = True,
-):
-    file_format = "ome.zarr"
-    num_channels = len(channel_zarr_files)
-    dataset_folder = os.path.join(mobie_project_directory, dataset_name)
-    # create color and contrast limits for each channel
-    display_settings: list[dict[str, Any]] = [
-        {"color": DEFAULT_COLORS_PER_CHANNEL[channel]}
-        for channel in range(num_channels)
-    ]
-    channel_names: list[str] = []
-    for channel, zarr_file in enumerate(channel_zarr_files):
-        channel_name = os.path.basename(zarr_file).split(".")[0]
-        channel_names.append(channel_name)
-        # add image volume once (by this added as a source, but never used as one)
-        # just move data, don't copy, apparently internally only changes
-        # pointer not moving a single byte (as long as on same filesystem),
-        # so it should not matter if we call this multiple times (for each
-        # channel)
-        add_image(
-            input_path=zarr_file,
-            input_key=0,
-            root=mobie_project_directory,
-            dataset_name=dataset_name,
-            image_name=channel_name,
-            file_format=file_format,
-            view={},  # manually add view at the end
-            is_default_dataset=is_default_dataset,
-            move_only=True,
-            resolution=None,  # not needed since we just move data
-            chunks=None,  # not needed since we just move data
-            scale_factors=None,  # not needed since we just move data
-            skip_add_to_dataset=True,  # add one source per channel manually
-        )
-        # for ome-zarr data and metadata path are the same
-        image_data_path, _ = get_internal_paths(
-            dataset_folder, file_format, channel_name
-        )
-        # MoBIE can't handle multi-series zarr files, so we need to
-        # add the series name to the path
-        image_data_path = image_data_path + "/0"
-        add_source_to_dataset(
-            dataset_folder=dataset_folder,
-            source_type="image",
-            source_name=channel_name,
-            image_metadata_path=image_data_path,
-            view={},
-            channel=channel,
-        )
-        if calculate_contrast_limits:  # flag since this can take a few seconds
-            display_settings[channel]["contrastLimits"] = get_contrast_limits(
-                zarr_file_path=image_data_path, channel=0
-            )
-    # add one view to visualize all channels at once
-    create_view(
-        dataset_folder=dataset_folder,
-        view_name=view_name,
-        sources=[[source] for source in channel_names],
-        display_settings=display_settings,
-        display_group_names=DEFAULT_NAMES_PER_CHANNEL[:num_channels],
-        menu_name="volumes",
-        overwrite=True,
-    )
-    return channel_names
 
 
 def get_args():
@@ -229,9 +157,10 @@ def main():
         )
         return
     _ = add_multichannel_zarr_image(
-        args.input_file,
-        args.mobie_project_folder,
-        args.dataset_name,
+        zarr_file=args.input_file,
+        mobie_project_directory=args.mobie_project_folder,
+        dataset_name=args.dataset_name,
+        calculate_contrast_limits=args.calculate_contrast_limits,
     )
     remove_tmp_folder()
 

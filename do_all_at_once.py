@@ -37,7 +37,7 @@ def update_remote_project(
         )
         pbar.update(1)
     pbar.close()
-
+    exit()
     # sync metadata with GitHub
     print("Syncing with GitHub...")
     stage_all_and_commit()
@@ -70,6 +70,8 @@ def do_all_at_once(
         zarr_file_paths.append(zarr_file_path)
         pbar.update(1)
     pbar.close()
+
+    # zarr_file_paths = ["tmp/Point0000_ChannelCy5_(Single_EM)_Seq0000.ome.zarr"]
 
     # add images to MoBIE project
     is_pulled = pull()
