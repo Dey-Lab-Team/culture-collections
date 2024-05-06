@@ -52,7 +52,6 @@ def do_all_at_once_seperate_channels(
     update_remote_project(
         image_data_paths=source_name_of_volumes,
         mobie_project_directory=mobie_project_directory,
-        dataset_name=dataset_name,
         bucket_name=bucket_name,
         s3_alias=s3_alias,
     )

@@ -3,8 +3,12 @@ import os
 import shutil
 from typing import Any
 
-import mobie
+import zarr
 from elf.io import open_file
+from mobie import add_image
+from mobie.metadata import add_source_to_dataset
+from mobie.utils import get_internal_paths
+from mobie.view_utils import create_view
 
 from calc_contrast import get_contrast_limits
 from update_project_on_github import pull
@@ -25,6 +29,7 @@ def remove_tmp_folder():
 def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
     with open_file(zarr_file, mode="r") as f:
+        assert isinstance(f, zarr.Group)
         num_channels = f[zarr_key].shape[1]
         assert isinstance(num_channels, int)
     return num_channels
@@ -32,7 +37,9 @@ def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int
 
 def _get_series_ids_from_zarr_file(zarr_file: str) -> list[int]:
     with open_file(zarr_file, mode="r") as f:
+        assert isinstance(f, zarr.Group)
         series_ids = f["OME"].attrs["series"]
+    assert isinstance(series_ids, list)
     return [int(id) for id in series_ids]
 
 
@@ -48,12 +55,9 @@ def add_multichannel_zarr_image(
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     image_base_name = os.path.basename(zarr_file).split(".")[0]
     # for ome-zarr data and metadata path are the same
-    image_data_path, _ = mobie.utils.get_internal_paths(
+    image_data_path, _ = get_internal_paths(
         dataset_folder=dataset_folder, file_format=file_format, name=image_base_name
     )
-    print(image_data_path)
-    exit()
-    assert isinstance(image_data_path, str)
     # move file to correct place in MoBIE project instead of calling add_image
     shutil.move(zarr_file, image_data_path)
     # loop over series, handle each as a seperate volume (i.e. giving it a view)
@@ -78,7 +82,7 @@ def add_multichannel_zarr_image(
         sources: list[list[str]] = []
         for channel, channel_settings in enumerate(display_settings):
             channel_specific_name = series_specific_name + f"_ch{channel}"
-            mobie.metadata.add_source_to_dataset(
+            add_source_to_dataset(
                 dataset_folder=dataset_folder,
                 source_type="image",
                 source_name=channel_specific_name,
@@ -96,7 +100,7 @@ def add_multichannel_zarr_image(
                 )
             sources.append([channel_specific_name])
         # add one view to visualize all channels at once
-        mobie.view_utils.create_view(
+        create_view(
             dataset_folder=dataset_folder,
             view_name=series_specific_name,
             sources=sources,
@@ -133,7 +137,7 @@ def add_image_with_seperate_channels(
         # pointer not moving a single byte (as long as on same filesystem),
         # so it should not matter if we call this multiple times (for each
         # channel)
-        mobie.add_image(
+        add_image(
             input_path=zarr_file,
             input_key=0,
             root=mobie_project_directory,
@@ -149,14 +153,13 @@ def add_image_with_seperate_channels(
             skip_add_to_dataset=True,  # add one source per channel manually
         )
         # for ome-zarr data and metadata path are the same
-        image_data_path, _ = mobie.utils.get_internal_paths(
+        image_data_path, _ = get_internal_paths(
             dataset_folder, file_format, channel_name
         )
-        assert isinstance(image_data_path, str)
         # MoBIE can't handle multi-series zarr files, so we need to
         # add the series name to the path
         image_data_path = image_data_path + "/0"
-        mobie.metadata.add_source_to_dataset(
+        add_source_to_dataset(
             dataset_folder=dataset_folder,
             source_type="image",
             source_name=channel_name,
@@ -169,7 +172,7 @@ def add_image_with_seperate_channels(
                 zarr_file_path=image_data_path, channel=0
             )
     # add one view to visualize all channels at once
-    mobie.view_utils.create_view(
+    create_view(
         dataset_folder=dataset_folder,
         view_name=view_name,
         sources=[[source] for source in channel_names],

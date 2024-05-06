@@ -2,11 +2,7 @@ import argparse
 import os
 import warnings
 
-from mobie.metadata import (
-    add_remote_project_metadata,
-    read_dataset_metadata,
-    upload_source,
-)
+from mobie.metadata import add_remote_project_metadata
 from tqdm import tqdm
 
 from add_image_to_MoBIE_project import add_multichannel_zarr_image, remove_tmp_folder
@@ -19,7 +15,6 @@ from upload_to_s3 import upload_to_s3
 def update_remote_project(
     image_data_paths: list[str],
     mobie_project_directory: str,
-    dataset_name: str,
     bucket_name: str,
     s3_alias: str,
 ):
@@ -71,7 +66,6 @@ def do_all_at_once(
     pbar = tqdm(total=len(input_files))
     for file_path in input_files:
         pbar.set_description(f"Converting files, currently {file_path}")
-        # TODO: catch special case that there are multiple volumes in one file
         zarr_file_path = convert_to_ome_zarr(file_path)
         zarr_file_paths.append(zarr_file_path)
         pbar.update(1)
@@ -103,7 +97,6 @@ def do_all_at_once(
     update_remote_project(
         image_data_paths=source_name_of_volumes,
         mobie_project_directory=mobie_project_directory,
-        dataset_name=dataset_name,
         bucket_name=bucket_name,
         s3_alias=s3_alias,
     )
