@@ -5,7 +5,7 @@ import warnings
 from mobie.metadata import add_remote_project_metadata  # pyright: ignore
 from tqdm import tqdm
 
-from add_image_to_MoBIE_project import add_multichannel_zarr_image, remove_tmp_folder
+from add_image import add_multichannel_zarr_image, remove_tmp_folder
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from scrape_supported_file_types_from_web import is_format_supported
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote

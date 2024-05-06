@@ -5,7 +5,7 @@ from typing import Any
 from mobie.metadata import add_source_to_dataset  # pyright: ignore
 from mobie.view_utils import create_view  # pyright: ignore
 
-from add_image_to_MoBIE_project import (
+from add_image import (
     DEFAULT_COLORS_PER_CHANNEL,
     DEFAULT_NAMES_PER_CHANNEL,
     move_zarr_file_to_correct_place,

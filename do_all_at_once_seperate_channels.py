@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 
-from add_image_to_MoBIE_project import remove_tmp_folder
+from add_image import remove_tmp_folder
 from add_image_with_seperate_channels import add_image_with_seperate_channels
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from do_all_at_once import update_remote_project
