@@ -3,12 +3,12 @@ import os
 import shutil
 from typing import Any
 
-import zarr
-from elf.io import open_file
-from mobie import add_image
-from mobie.metadata import add_source_to_dataset
-from mobie.utils import get_internal_paths
-from mobie.view_utils import create_view
+import zarr  # pyright: ignore
+from elf.io import open_file  # pyright: ignore
+from mobie import add_image  # pyright: ignore
+from mobie.metadata import add_source_to_dataset  # pyright: ignore
+from mobie.utils import get_internal_paths  # pyright: ignore
+from mobie.view_utils import create_view  # pyright: ignore
 
 from calc_contrast import get_contrast_limits
 from update_project_on_github import pull
@@ -43,6 +43,48 @@ def _get_series_ids_from_zarr_file(zarr_file: str) -> list[int]:
     return [int(id) for id in series_ids]
 
 
+def move_zarr_file_to_correct_place(
+    zarr_file_path: str,
+    mobie_project_directory: str,
+    dataset_name: str,
+    image_name: str,
+    file_format: str,
+    is_default_dataset: bool,
+    dataset_folder: str,
+):
+    """More or less just to move data to correct place.
+    Also takes care of creating the dataset correctly.
+
+    Args:
+        image_data_path (str): _description_
+        mobie_project_directory (str): _description_
+        dataset_name (str): _description_
+        image_name (str): _description_
+        file_format (str): _description_
+        is_default_dataset (bool): _description_
+    """
+    add_image(
+        input_path=zarr_file_path,
+        input_key="0/0",
+        root=mobie_project_directory,
+        dataset_name=dataset_name,
+        image_name=image_name,
+        file_format=file_format,
+        view={},  # manually add view at the end
+        is_default_dataset=is_default_dataset,
+        move_only=True,
+        resolution=None,  # not needed since we just move data
+        chunks=None,  # not needed since we just move data
+        scale_factors=None,  # not needed since we just move data
+        skip_add_to_dataset=True,  # we add it manually
+    )
+    # for ome-zarr data and metadata paths are the same
+    image_data_path, _ = get_internal_paths(
+        dataset_folder=dataset_folder, file_format=file_format, name=image_name
+    )
+    return image_data_path
+
+
 # dimensions in ome-zarr file are: [series, resolution, t, c, z, y, x]
 # series and resolution are groups, the rest arrays
 def add_multichannel_zarr_image(
@@ -54,12 +96,16 @@ def add_multichannel_zarr_image(
     file_format = "ome.zarr"
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     image_base_name = os.path.basename(zarr_file).split(".")[0]
-    # for ome-zarr data and metadata path are the same
-    image_data_path, _ = get_internal_paths(
-        dataset_folder=dataset_folder, file_format=file_format, name=image_base_name
+    # move file to correct place in MoBIE project
+    image_data_path = move_zarr_file_to_correct_place(
+        zarr_file_path=zarr_file,
+        mobie_project_directory=mobie_project_directory,
+        dataset_name=dataset_name,
+        image_name=image_base_name,
+        file_format=file_format,
+        is_default_dataset=False,
+        dataset_folder=dataset_folder,
     )
-    # move file to correct place in MoBIE project instead of calling add_image
-    shutil.move(zarr_file, image_data_path)
     # loop over series, handle each as a seperate volume (i.e. giving it a view)
     series_ids = _get_series_ids_from_zarr_file(image_data_path)
     for series_id in series_ids:

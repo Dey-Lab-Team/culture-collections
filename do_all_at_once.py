@@ -2,7 +2,7 @@ import argparse
 import os
 import warnings
 
-from mobie.metadata import add_remote_project_metadata
+from mobie.metadata import add_remote_project_metadata  # pyright: ignore
 from tqdm import tqdm
 
 from add_image_to_MoBIE_project import add_multichannel_zarr_image, remove_tmp_folder
@@ -70,8 +70,6 @@ def do_all_at_once(
         zarr_file_paths.append(zarr_file_path)
         pbar.update(1)
     pbar.close()
-
-    # zarr_file_paths = ["tmp/Point0000_ChannelCy5_(Single_EM)_Seq0000.ome.zarr"]
 
     # add images to MoBIE project
     is_pulled = pull()

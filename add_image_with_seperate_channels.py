@@ -1,15 +1,14 @@
 import argparse
 import os
-import shutil
 from typing import Any
 
-from mobie.metadata import add_source_to_dataset
-from mobie.utils import get_internal_paths
-from mobie.view_utils import create_view
+from mobie.metadata import add_source_to_dataset  # pyright: ignore
+from mobie.view_utils import create_view  # pyright: ignore
 
 from add_image_to_MoBIE_project import (
     DEFAULT_COLORS_PER_CHANNEL,
     DEFAULT_NAMES_PER_CHANNEL,
+    move_zarr_file_to_correct_place,
     remove_tmp_folder,
 )
 from calc_contrast import get_contrast_limits
@@ -36,13 +35,17 @@ def add_image_with_seperate_channels(
     sources: list[list[str]] = []
     for channel, zarr_file in enumerate(channel_zarr_files):
         channel_name = os.path.basename(zarr_file).split(".")[0]
-        # for ome-zarr data and metadata path are the same
-        image_data_path, _ = get_internal_paths(
-            dataset_folder, file_format, channel_name
+        # move file to correct place in MoBIE project
+        image_data_path = move_zarr_file_to_correct_place(
+            zarr_file_path=zarr_file,
+            mobie_project_directory=mobie_project_directory,
+            dataset_name=dataset_name,
+            image_name=channel_name,
+            file_format=file_format,
+            is_default_dataset=False,
+            dataset_folder=dataset_folder,
         )
         image_data_paths.append(image_data_path)
-        # move file to correct place in MoBIE project instead of calling add_image
-        shutil.move(zarr_file, image_data_path)
         # MoBIE can't handle multi-series zarr files, so we need to
         # add the series name to the path
         image_data_path_with_series = image_data_path + "/0"
@@ -51,6 +54,7 @@ def add_image_with_seperate_channels(
             source_type="image",
             source_name=channel_name,
             image_metadata_path=image_data_path_with_series,
+            file_format=file_format,
             view={},
             # channel=0,  # TODO: or no channel?
         )

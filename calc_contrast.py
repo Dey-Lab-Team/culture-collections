@@ -3,7 +3,7 @@ from typing import Any
 
 import numpy as np
 import numpy.typing as npt
-from elf.io import open_file
+from elf.io import open_file  # pyright: ignore
 
 
 def calc_contrast_limits_fiji_style(image: npt.NDArray[Any]) -> list[int]:

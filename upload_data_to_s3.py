@@ -1,6 +1,6 @@
 import argparse
 
-from mobie.metadata import read_dataset_metadata, upload_source
+from mobie.metadata import read_dataset_metadata, upload_source  # pyright: ignore
 
 
 def get_args():

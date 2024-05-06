@@ -16,7 +16,7 @@ def do_all_at_once_seperate_channels(
     view_name: str,
     mobie_project_directory: str = "data",
     dataset_name: str = "single_volumes",
-    bucket_name: str = "culture-collections/data",
+    bucket_name: str = "culture-collections",
     s3_alias: str = "culcol_s3_rw",
 ):
     # convert images to ome-zarr
