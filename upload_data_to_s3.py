@@ -1,41 +1,61 @@
 import argparse
+import os
+import subprocess
 
-from mobie.metadata import read_dataset_metadata, upload_source  # pyright: ignore
+
+def upload_to_s3(
+    relative_path_local: str,
+    s3_prefix: str,
+    bucket_name: str,
+):
+    assert os.path.exists(relative_path_local)
+    cmd = [
+        "mc",
+        "cp",
+        "-r",
+        f"{relative_path_local}/",
+        f"{s3_prefix}/{bucket_name}/{relative_path_local}/",
+    ]
+    subprocess.run(cmd)
 
 
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--dataset_folder",
-        "-d",
-        default="data/single_volumes",
+        "--file_path",
+        "-f",
+        nargs="+",
         type=str,
-        help="Path to the MoBIE dataset folder the source belongs to.",
-    )
-    parser.add_argument(
-        "--source", "-s", type=str, help="Name of the source to upload."
+        help="Paths to files to upload to s3.",
     )
     parser.add_argument(
         "--s3_alias",
         "-p",
         default="culcol_s3_rw",
         type=str,
-        help="Prefix of the s3 bucket.",
+        help="Prefix of the s3 bucket. "
+        "You defined this when you added the s3 to the minio "
+        "client as an alias.",
+    )
+
+    parser.add_argument(
+        "--bucket_name",
+        "-b",
+        default="culture-collections",
+        type=str,
+        help="Name of the bucket to upload to.",
     )
     return parser.parse_args()
 
 
 def main():
     args = get_args()
-    dataset_metadata = read_dataset_metadata(args.dataset_folder)
-    source_metadata = dataset_metadata["sources"][args.source]
-    upload_source(
-        dataset_folder=args.dataset_folder,
-        metadata=source_metadata,
-        data_format="ome.zarr",
-        bucket_name="culture-collections/data",
-        s3_prefix=args.s3_alias,
-    )
+    for path in args.file_path:
+        upload_to_s3(
+            relative_path_local=path,
+            s3_prefix=args.s3_alias,
+            bucket_name=args.bucket_name,
+        )
 
 
 if __name__ == "__main__":

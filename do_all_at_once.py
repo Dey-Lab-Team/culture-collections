@@ -9,7 +9,7 @@ from add_image_to_MoBIE_project import add_multichannel_zarr_image, remove_tmp_f
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from scrape_supported_file_types_from_web import is_format_supported
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
-from upload_to_s3 import upload_to_s3
+from upload_data_to_s3 import upload_to_s3
 
 
 def update_remote_project(
@@ -37,7 +37,7 @@ def update_remote_project(
         )
         pbar.update(1)
     pbar.close()
-    exit()
+
     # sync metadata with GitHub
     print("Syncing with GitHub...")
     stage_all_and_commit()
