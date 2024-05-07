@@ -150,6 +150,30 @@
           }
         }
       }
+    },
+    "Point0000_ChannelFITC_(Single_EM)_Seq0002": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/Point0000_ChannelFITC_(Single_EM)_Seq0002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/test_volumes/images/ome-zarr/Point0000_ChannelFITC_(Single_EM)_Seq0002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "Point0000_ChannelDAPI_(Single_EM)_Seq0003": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/Point0000_ChannelDAPI_(Single_EM)_Seq0003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/test_volumes/images/ome-zarr/Point0000_ChannelDAPI_(Single_EM)_Seq0003.ome.zarr/0"
+          }
+        }
+      }
     }
   },
   "views": {
@@ -325,6 +349,34 @@
             "opacity": 1.0,
             "sources": [
               "Point0000_ChannelTRITC_(Single_EM)_Seq0001"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              1903
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "Point0000_ChannelFITC_(Single_EM)_Seq0002"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              75,
+              249
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "Point0000_ChannelDAPI_(Single_EM)_Seq0003"
             ]
           }
         }
