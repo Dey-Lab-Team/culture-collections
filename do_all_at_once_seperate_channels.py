@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 
 from add_image import remove_tmp_folder
-from add_image_with_seperate_channels import add_image_with_seperate_channels
+from add_image_seperate_channels import add_image_with_seperate_channels
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from do_all_at_once import update_remote_project
 from scrape_supported_file_types_from_web import is_format_supported
@@ -21,14 +21,9 @@ def do_all_at_once_seperate_channels(
 ):
     # convert images to ome-zarr
     channel_zarr_file_paths: list[str] = []
-    pbar = tqdm(total=len(channel_files))
-    for file_path in channel_files:
-        pbar.set_description(f"Converting files, currently {file_path}")
-        # TODO: catch special case that there are multiple volumes in one file
+    for file_path in tqdm(channel_files, desc="Converting files"):
         zarr_file_path = convert_to_ome_zarr(file_path)
         channel_zarr_file_paths.append(zarr_file_path)
-        pbar.update(1)
-    pbar.close()
 
     # add images to MoBIE project
     is_pulled = pull()
@@ -65,10 +60,13 @@ def check_input_data(channel_files: list[str]):
 
 
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Convert images to ome-zarr, add them to MoBIE, "
+        "upload and sync everything. Special case where channels are in separate files."
+    )
     parser.add_argument(
         "--channel_files",
-        "-d",
+        "-f",
         nargs="+",
         type=str,
         help="Path to the files containing individual channels "

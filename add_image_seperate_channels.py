@@ -18,10 +18,10 @@ from update_project_on_github import pull
 
 
 def has_single_channel(zarr_file: str, zarr_key: str) -> bool:
-    with open_file(zarr_file, mode="r") as f:
-        array = f[zarr_key]
+    with open_file(zarr_file, mode="r") as f:  # pyright: ignore
+        array = f[zarr_key]  # pyright: ignore
         assert isinstance(array, zarr.Array)
-    return array.shape[1] == 1
+    return array.shape[1] == 1  # pyright: ignore
 
 
 def add_image_with_seperate_channels(
@@ -90,7 +90,10 @@ def add_image_with_seperate_channels(
 
 
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Add a multichannel zarr image to MoBIE. "
+        "Special case where channels are in separate files."
+    )
     parser.add_argument(
         "--channel_files",
         "-f",
@@ -114,7 +117,7 @@ def get_args():
     )
     parser.add_argument(
         "--dataset_name",
-        "-d",
+        "-dsn",
         default="single_volumes",
         type=str,
         help="Name of the dataset to add the data to. "

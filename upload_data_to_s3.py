@@ -2,6 +2,10 @@ import argparse
 import os
 import subprocess
 
+from tqdm import tqdm
+
+from utils import filter_for_ome_zarr
+
 
 def upload_to_s3(
     relative_path_local: str,
@@ -20,13 +24,15 @@ def upload_to_s3(
 
 
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Upload ome-zarr files to s3.")
     parser.add_argument(
-        "--file_path",
+        "--input_data",
         "-f",
         nargs="+",
         type=str,
-        help="Paths to files to upload to s3.",
+        help="Path to the input data. Can be either a single file, "
+        "multiple files or a directory containing multiple files. "
+        "Only ome-zarr files are supported.",
     )
     parser.add_argument(
         "--s3_alias",
@@ -50,7 +56,8 @@ def get_args():
 
 def main():
     args = get_args()
-    for path in args.file_path:
+    input_files = filter_for_ome_zarr(args.input_data)
+    for path in tqdm(input_files, desc="Uploading to s3"):
         upload_to_s3(
             relative_path_local=path,
             s3_prefix=args.s3_alias,

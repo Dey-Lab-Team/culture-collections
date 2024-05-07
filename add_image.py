@@ -9,12 +9,14 @@ from mobie import add_image  # pyright: ignore
 from mobie.metadata import add_source_to_dataset  # pyright: ignore
 from mobie.utils import get_internal_paths  # pyright: ignore
 from mobie.view_utils import create_view  # pyright: ignore
+from tqdm import tqdm
 
 from calc_contrast import get_contrast_limits
 from update_project_on_github import pull
+from utils import filter_for_ome_zarr
 
 DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
-# TODO: read them from file name?
+# TODO: read them from file name? or from csv?
 DEFAULT_NAMES_PER_CHANNEL = ["channel-1", "channel-2", "channel-3", "channel-4"]
 
 
@@ -28,19 +30,19 @@ def remove_tmp_folder():
 
 def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
-    with open_file(zarr_file, mode="r") as f:
+    with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
-        num_channels = f[zarr_key].shape[1]
+        num_channels = f[zarr_key].shape[1]  # pyright: ignore
         assert isinstance(num_channels, int)
     return num_channels
 
 
 def _get_series_ids_from_zarr_file(zarr_file: str) -> list[int]:
-    with open_file(zarr_file, mode="r") as f:
+    with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
-        series_ids = f["OME"].attrs["series"]
+        series_ids = f["OME"].attrs["series"]  # pyright: ignore
     assert isinstance(series_ids, list)
-    return [int(id) for id in series_ids]
+    return [int(id) for id in series_ids]  # pyright: ignore
 
 
 def move_zarr_file_to_correct_place(
@@ -159,13 +161,15 @@ def add_multichannel_zarr_image(
 
 
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Add ome-zarr images to MoBIE.")
     parser.add_argument(
-        "--input_file",
+        "--input_data",
         "-f",
+        nargs="+",
         type=str,
-        help="Path to the input file. Must be a zarr file converted by"
-        "bioformats2raw.",
+        help="Path to the input data. Can be either a single file, "
+        "multiple files or a directory containing multiple files. "
+        "Only ome-zarr files are supported.",
     )
     parser.add_argument(
         "--mobie_project_folder",
@@ -176,10 +180,10 @@ def get_args():
     )
     parser.add_argument(
         "--dataset_name",
-        "-d",
+        "-dsn",
         default="single_volumes",
         type=str,
-        help="Name of the dataset to add the data to."
+        help="Name of the dataset to add the data to. "
         "If it does not exist, it will be created.",
     )
     parser.add_argument(
@@ -187,7 +191,7 @@ def get_args():
         "-c",
         default=True,
         type=bool,
-        help="Whether to calculate contrast limits for the image."
+        help="Whether to calculate contrast limits for the image. "
         "Makes adding the image slower, but the image will look better.",
     )
     return parser.parse_args()
@@ -198,16 +202,18 @@ def main():
     is_pulled = pull()
     if not is_pulled:
         print(
-            "Could not pull from GitHub. Please check the output and resolve"
+            "Could not pull from GitHub. Please check the output and resolve "
             "any conflicts using git directly."
         )
         return
-    _ = add_multichannel_zarr_image(
-        zarr_file=args.input_file,
-        mobie_project_directory=args.mobie_project_folder,
-        dataset_name=args.dataset_name,
-        calculate_contrast_limits=args.calculate_contrast_limits,
-    )
+    input_files = filter_for_ome_zarr(args.input_data)
+    for input_file in tqdm(input_files, desc="Adding images to MoBIE"):
+        _ = add_multichannel_zarr_image(
+            zarr_file=input_file,
+            mobie_project_directory=args.mobie_project_folder,
+            dataset_name=args.dataset_name,
+            calculate_contrast_limits=args.calculate_contrast_limits,
+        )
     remove_tmp_folder()
 
 

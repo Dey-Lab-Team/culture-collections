@@ -1,4 +1,13 @@
-from mobie.metadata import add_remote_project_metadata
+import argparse
+
+from mobie.metadata import add_remote_project_metadata  # pyright: ignore
+
+
+def get_args():
+    parser = argparse.ArgumentParser(
+        description="Add s3 information to MoBIE project files. No arguments needed."
+    )
+    parser.parse_args()
 
 
 def main():
@@ -10,4 +19,5 @@ def main():
 
 
 if __name__ == "__main__":
+    get_args()
     main()

@@ -3,6 +3,10 @@ import os
 import shlex
 import subprocess
 
+from tqdm import tqdm
+
+from utils import filter_for_supported_file_formats
+
 
 def generate_zarr_file_path(input_file_path: str):
     file_name = os.path.split(input_file_path)[1].split(".")[0]
@@ -36,20 +40,27 @@ def convert_to_ome_zarr(
 
 
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Convert images to ome-zarr. "
+        "Converted files will be saved in a tmp folder."
+    )
     parser.add_argument(
-        "--input_file",
+        "--input_data",
         "-f",
+        nargs="+",
         type=str,
-        help="Path to the input file. Must be a zarr file converted by"
-        "bioformats2raw.",
+        help="Path to the input data. Can be either a single file, "
+        "multiple files or a directory containing multiple files. "
+        "Will be converted to ome-zarr by bioformats2raw.",
     )
     return parser.parse_args()
 
 
 def main():
     args = get_args()
-    _ = convert_to_ome_zarr(args.input_file)
+    input_files = filter_for_supported_file_formats(args.input_data)
+    for input_file in tqdm(input_files, desc="Converting images to ome-zarr"):
+        _ = convert_to_ome_zarr(input_file)
 
 
 if __name__ == "__main__":

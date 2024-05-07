@@ -1,15 +1,13 @@
 import argparse
-import os
-import warnings
 
 from mobie.metadata import add_remote_project_metadata  # pyright: ignore
 from tqdm import tqdm
 
 from add_image import add_multichannel_zarr_image, remove_tmp_folder
 from convert_image_to_ome_zarr import convert_to_ome_zarr
-from scrape_supported_file_types_from_web import is_format_supported
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
 from upload_data_to_s3 import upload_to_s3
+from utils import filter_for_supported_file_formats
 
 
 def update_remote_project(
@@ -27,16 +25,12 @@ def update_remote_project(
     )
 
     # upload images to s3
-    pbar = tqdm(total=len(image_data_paths), leave=True)
-    for data_path in image_data_paths:
-        pbar.set_description(f"Upload data to s3, currently {data_path}")
+    for data_path in tqdm(image_data_paths, desc="Uploading data to s3"):
         upload_to_s3(
             relative_path_local=data_path,
             s3_prefix=s3_alias,
             bucket_name=bucket_name,
         )
-        pbar.update(1)
-    pbar.close()
 
     # sync metadata with GitHub
     print("Syncing with GitHub...")
@@ -63,13 +57,9 @@ def do_all_at_once(
 ):
     # convert images to ome-zarr
     zarr_file_paths: list[str] = []
-    pbar = tqdm(total=len(input_files))
-    for file_path in input_files:
-        pbar.set_description(f"Converting files, currently {file_path}")
+    for file_path in tqdm(input_files, desc="Converting files"):
         zarr_file_path = convert_to_ome_zarr(file_path)
         zarr_file_paths.append(zarr_file_path)
-        pbar.update(1)
-    pbar.close()
 
     # add images to MoBIE project
     is_pulled = pull()
@@ -80,18 +70,13 @@ def do_all_at_once(
         )
         return
     source_name_of_volumes: list[str] = []
-    pbar = tqdm(total=len(zarr_file_paths))
-    for zarr_file_path in zarr_file_paths:
-        file_name = os.path.basename(zarr_file_path).split(".")[0]
-        pbar.set_description(f"Add images to MoBIE, currently {file_name}")
+    for zarr_file_path in tqdm(zarr_file_paths, desc="Adding images to MoBIE"):
         source_name_of_volume = add_multichannel_zarr_image(
             zarr_file_path,
             mobie_project_directory=mobie_project_directory,
             dataset_name=dataset_name,
         )
         source_name_of_volumes.append(source_name_of_volume)
-        pbar.update(1)
-    pbar.close()
     remove_tmp_folder()
 
     update_remote_project(
@@ -102,30 +87,14 @@ def do_all_at_once(
     )
 
 
-def check_input_data(input_data: list[str]):
-    valid_files: list[str] = []
-    for path in input_data:
-        if os.path.exists(path):
-            if is_format_supported(path, warn=True):  # supported file case
-                valid_files.append(path)
-            elif os.path.isdir(path):  # directory case
-                valid_files.extend(
-                    [
-                        os.path.join(path, file)
-                        for file in os.listdir(path)
-                        if is_format_supported(file, warn=True)
-                    ]
-                )
-        else:
-            warnings.warn(f"{path} does not exist. It will be ignored.")
-    return valid_files
-
-
 def get_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Convert images to ome-zarr, add them to MoBIE, "
+        "upload and sync everything."
+    )
     parser.add_argument(
         "--input_data",
-        "-d",
+        "-f",
         nargs="+",
         type=str,
         help="Path to the input data. Can be either a single file, "
@@ -149,7 +118,7 @@ def get_args():
 def main():
     # get input arguments
     args = get_args()
-    input_files = check_input_data(args.input_data)
+    input_files = filter_for_supported_file_formats(args.input_data)
     do_all_at_once(
         input_files=input_files, dataset_name=args.dataset_name, s3_alias=args.s3_alias
     )

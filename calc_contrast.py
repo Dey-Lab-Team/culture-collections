@@ -1,4 +1,4 @@
-import time
+import argparse
 from typing import Any
 
 import numpy as np
@@ -58,34 +58,71 @@ def get_contrast_limits(
     func: str = "percentile",
     central_slice: bool = True,
 ) -> list[int]:
-    zarr_file = open_file(zarr_file_path, mode="r")
-    zarr_array = zarr_file[zarr_key]
+    zarr_file = open_file(zarr_file_path, mode="r")  # pyright: ignore
+    zarr_array = zarr_file[zarr_key]  # pyright: ignore
     if central_slice:
-        image = zarr_array[0, channel, zarr_array.shape[2] // 2]
+        image = zarr_array[0, channel, zarr_array.shape[2] // 2]  # pyright: ignore
     else:
-        image = zarr_array[0, channel]
+        image = zarr_array[0, channel]  # pyright: ignore
     if func == "percentile":
-        contrast_limits = calc_contrast_limits_percentile(image)
+        contrast_limits = calc_contrast_limits_percentile(image)  # pyright: ignore
     elif func == "fiji":
-        contrast_limits = calc_contrast_limits_fiji_style(image)
+        contrast_limits = calc_contrast_limits_fiji_style(image)  # pyright: ignore
     else:
         raise ValueError(f"Unknown function {func}")
     return contrast_limits
 
 
-def main():
-    file_path = (
-        "/home/hellgoth/Documents/work/projects/"
-        "culture-collections_project/converted_copy/5488_5534.ome.zarr"
+def get_args():
+    parser = argparse.ArgumentParser(description="Calculate and print contrast limits.")
+    parser.add_argument(
+        "--input_file",
+        "-f",
+        type=str,
+        help="Path to the input file. Must be a ome-zarr file converted by "
+        "bioformats2raw.",
     )
-    zarr_file = open_file(file_path, mode="r")
-    print(zarr_file)
-    for key in range(8):
-        print(key)
-        s = time.time()
-        contrast_limits = get_contrast_limits(file_path, zarr_key=key)
-        e = time.time()
-        print(contrast_limits, e - s)
+    parser.add_argument(
+        "--input_key",
+        "-k",
+        default="0/0",
+        type=str,
+        help="Key to the zarr array.",
+    )
+    parser.add_argument(
+        "--channel",
+        "-c",
+        type=int,
+        help="Channel to calculate the contrast limits for.",
+    )
+    parser.add_argument(
+        "--func",
+        "-fu",
+        default="percentile",
+        type=str,
+        help="Function to calculate the contrast limits. Options are "
+        "'percentile' and 'fiji'.",
+    )
+    parser.add_argument(
+        "--full_volume",
+        "-fv",
+        action="store_true",
+        help="If set, calculate the contrast limits for the entire volume "
+        "instead of only using the enctral slice.",
+    )
+    return parser.parse_args()
+
+
+def main():
+    args = get_args()
+    contrast_limits = get_contrast_limits(
+        zarr_file_path=args.input_file,
+        zarr_key=args.input_key,
+        channel=args.channel,
+        func=args.func,
+        central_slice=not args.full_volume,
+    )
+    print(contrast_limits)
 
 
 if __name__ == "__main__":

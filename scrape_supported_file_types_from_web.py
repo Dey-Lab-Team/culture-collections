@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import pickle
@@ -68,9 +69,18 @@ def is_format_supported(file_path: str, warn: bool = False):
     return False
 
 
+def get_args():
+    parser = argparse.ArgumentParser(
+        description="Scrape supported file formats from the web. "
+        "No need for you to run this."
+    )
+    parser.parse_args()
+
+
 def main():
     _ = get_supported_file_types(scrape_again=True)
 
 
 if __name__ == "__main__":
+    get_args()
     main()

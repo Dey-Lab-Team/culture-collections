@@ -1,3 +1,4 @@
+import argparse
 import subprocess
 
 
@@ -33,11 +34,19 @@ def sync_with_remote():
     return is_pushed
 
 
+def get_args():
+    parser = argparse.ArgumentParser(
+        description="Sync MoBIE project files with GitHub. No arguments needed."
+    )
+    parser.parse_args()
+
+
 def main():
     stage_all_and_commit()
     _ = sync_with_remote()
 
 
 if __name__ == "__main__":
+    get_args()
     # potential merge conflicts need to be solved manually on the command line
     main()
