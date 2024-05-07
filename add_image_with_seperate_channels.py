@@ -2,6 +2,8 @@ import argparse
 import os
 from typing import Any
 
+import zarr  # pyright: ignore
+from elf.io import open_file  # pyright: ignore
 from mobie.metadata import add_source_to_dataset  # pyright: ignore
 from mobie.view_utils import create_view  # pyright: ignore
 
@@ -15,6 +17,13 @@ from calc_contrast import get_contrast_limits
 from update_project_on_github import pull
 
 
+def has_single_channel(zarr_file: str, zarr_key: str) -> bool:
+    with open_file(zarr_file, mode="r") as f:
+        array = f[zarr_key]
+        assert isinstance(array, zarr.Array)
+    return array.shape[1] == 1
+
+
 def add_image_with_seperate_channels(
     channel_zarr_files: list[str],
     mobie_project_directory: str,
@@ -22,6 +31,11 @@ def add_image_with_seperate_channels(
     view_name: str,
     calculate_contrast_limits: bool = True,
 ):
+    zarr_key = "0/0"
+    # check if all files have only one channel
+    for zarr_file in channel_zarr_files:
+        if not has_single_channel(zarr_file, zarr_key):
+            raise ValueError(f"{zarr_file} has more than one channel.")
     file_format = "ome.zarr"
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     image_data_paths: list[str] = []
@@ -56,11 +70,10 @@ def add_image_with_seperate_channels(
             image_metadata_path=image_data_path_with_series,
             file_format=file_format,
             view={},
-            # channel=0,  # TODO: or no channel?
         )
         if calculate_contrast_limits:  # flag since this can take a few seconds
             display_settings[channel]["contrastLimits"] = get_contrast_limits(
-                zarr_file_path=image_data_path, zarr_key="0/0", channel=0
+                zarr_file_path=image_data_path, zarr_key=zarr_key, channel=0
             )
         sources.append([channel_name])
     # add one view to visualize all channels at once
@@ -90,7 +103,7 @@ def get_args():
         "--view_name",
         "-v",
         type=str,
-        help="Name of the entire image when you want to select it in MoBIE.",
+        help="Name for the entire volume when you want to select it in MoBIE.",
     )
     parser.add_argument(
         "--mobie_project_folder",
@@ -104,7 +117,7 @@ def get_args():
         "-d",
         default="single_volumes",
         type=str,
-        help="Name of the dataset to add the data to."
+        help="Name of the dataset to add the data to. "
         "If it does not exist, it will be created.",
     )
     parser.add_argument(
@@ -112,7 +125,7 @@ def get_args():
         "-c",
         default=True,
         type=bool,
-        help="Whether to calculate contrast limits for the image."
+        help="Whether to calculate contrast limits for the image. "
         "Makes adding the image slower, but the image will look better.",
     )
     return parser.parse_args()
