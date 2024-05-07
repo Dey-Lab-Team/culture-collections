@@ -1,6 +1,6 @@
-from mobie.view_utils import create_grid_view
+from mobie.view_utils import create_grid_view  # pyright: ignore
 
-DATASET_FOLDER = "data/single_volumes"
+DATASET_FOLDER = "data/test_volumes"
 VIEW_NAME = "test_grid_view"
 SOURCES = [
     ["5488_5533_ch0", "5488_5533_ch1", "5488_5533_ch2"],
