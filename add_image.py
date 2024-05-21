@@ -99,6 +99,7 @@ def add_multichannel_zarr_image(
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     image_base_name = os.path.basename(zarr_file).split(".")[0]
     # move file to correct place in MoBIE project
+    exit()
     image_data_path = move_zarr_file_to_correct_place(
         zarr_file_path=zarr_file,
         mobie_project_directory=mobie_project_directory,

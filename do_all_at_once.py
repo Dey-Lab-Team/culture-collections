@@ -55,12 +55,18 @@ def do_all_at_once(
     bucket_name: str = "culture-collections",
     s3_alias: str = "culcol_s3_rw",
 ):
+    print("input files")
+    print(input_files)
+    print()
     # convert images to ome-zarr
     zarr_file_paths: list[str] = []
     for file_path in tqdm(input_files, desc="Converting files"):
         zarr_file_path = convert_to_ome_zarr(file_path)
         zarr_file_paths.append(zarr_file_path)
 
+    print("zarr file paths")
+    print(zarr_file_paths)
+    print()
     # add images to MoBIE project
     is_pulled = pull()
     if not is_pulled:
