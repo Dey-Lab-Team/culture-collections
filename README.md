@@ -66,6 +66,18 @@ cd <directory_of_your_choice>
 ```sh
 git clone git@github.com:Dey-Lab-Team/culture-collections.git
 ```
+<details>
+<summary>
+If you have an error saying ...
+</summary>
+
+... `Host key verification failed. fatal: Could not read from remote repository.`, try running
+```sh
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+```
+Then try to clone again.
+</details>
+
 Navigate into the repository by
 ```sh
 cd culture-collections
