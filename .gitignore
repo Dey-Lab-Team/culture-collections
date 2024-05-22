@@ -21,6 +21,8 @@ events.*
 *.err
 *.png
 *.pdf
+*.ome.zarr
+*.ome-zarr
 
 # pytorch checkpoints
 *.pt
