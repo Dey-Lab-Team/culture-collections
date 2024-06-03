@@ -43,6 +43,216 @@
         }
       }
     },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/1"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/2"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/3"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          }
+        }
+      }
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst.ome.zarr/4"
+          }
+        }
+      }
+    },
     "20230816_rcc_ja1_pfa_csd_hoechst_tub_nhs_na_01_ch0": {
       "image": {
         "imageData": {
@@ -171,6 +381,246 @@
             "opacity": 1.0,
             "sources": [
               "20230423_RCC_15_pfa_OD_nhs-tub-Hoechst_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              87
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              2,
+              18
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              10
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              234
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              2,
+              60
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              158
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              2,
+              137
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              148
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              137
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              3,
+              65
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              126
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              156
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              3,
+              124
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              20
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04_ch2"
             ]
           }
         }
