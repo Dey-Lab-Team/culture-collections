@@ -1,7 +1,6 @@
 {
   "datasets": [
-    "test_volumes",
-    "single_volumes"
+    "test_volumes"
   ],
   "defaultDataset": "test_volumes",
   "specVersion": "0.3.0"
