@@ -21,11 +21,11 @@ def convert_to_ome_zarr(
     chunk_size: tuple[int, int, int] = (96, 96, 96),
 ) -> str:
     output_file_path = generate_zarr_file_path(input_file_path)
-    if os.path.exists(output_file_path) and not overwrite:
-        return output_file_path
     # escape spaces in file paths
     input_file_path = input_file_path.replace(" ", "\\ ")
     output_file_path = output_file_path.replace(" ", "_")
+    if os.path.exists(output_file_path) and not overwrite:
+        return output_file_path
     # use subprocess to call bioformats2raw
     cmd = (
         f"bioformats2raw {input_file_path} {output_file_path} "
