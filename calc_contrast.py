@@ -46,9 +46,8 @@ def calc_contrast_limits_fiji_style(image: npt.NDArray[Any]) -> list[int]:
 def calc_contrast_limits_percentile(
     image: npt.NDArray[Any], percentile: tuple[float, float] = (0.1, 99.9)
 ) -> list[int]:
-    lower_bound = np.percentile(image, percentile[0])
-    upper_bound = np.percentile(image, percentile[1])
-    return [int(lower_bound), int(upper_bound)]
+    bounds = np.percentile(image, percentile, overwrite_input=True)
+    return bounds.astype(int).tolist()
 
 
 def get_contrast_limits(
