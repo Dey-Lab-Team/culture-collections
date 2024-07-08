@@ -53,7 +53,7 @@ GitHub needs a way to verify that you are you and that you have the correct perm
 #### micromamba/mamba/conda
 *NOTE: If you already have a package & environment manager installed you can skip this step.*
 
-The easiest way to install python and all the needed packages is a package & environment manager. There are two main options called mamba and conda. In addition, for each of them there is minimalist version called micromamba and miniconda, respectively. If you have any of these installed you can use it. In general, any `mamba` command can be replaced by `conda` and vice versa. If you do not have any of these installed, I would recommend using micromamba following [these instructions](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). The conda alterantive can be found [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Again, to check your installation you can try `mamba --version`.
+The easiest way to install python and all the needed packages is a package & environment manager. There are two main options called mamba and conda. In addition, for each of them there is minimalist version called micromamba and miniconda, respectively. If you have any of these installed you can use it. In general, any `mamba` (or `micromamba`) command can be replaced by `conda` and vice versa. If you do not have any of these installed, I would recommend using micromamba following [these instructions](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). The conda alterantive can be found [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Again, to check your installation you can try `mamba --version`.
 
 ### Clone repository & create environment
 *NOTE: Cloning the repository and creating the environment needs to be done only once. Afterwards you can just reuse them.*
@@ -86,7 +86,7 @@ Create the environment by running the following command. This will install all t
 ```sh
 mamba env create -f environment.yml
 ```
-Potentially you need to accept the installation by tiping `y` and hitting enter.
+Potentially you need to accept the installation by tiping `y` and hitting enter. Note, depending on which version you have installed you need to replace `mamba` with `micromamba` or `conda`.
 
 ### Manually adjust environment
 Unfortunately, we have to add some installations manually. The bugs causing these issues are already fixed, however, the new versions are not released yet. Therefore, conda/mamba only has access to the old versions. For now, we just add the fixed versions manually to our environment. First, activate the environment:
