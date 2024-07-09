@@ -32,6 +32,7 @@ def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
     with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
+        print(zarr_file, zarr_key)
         num_channels = f[zarr_key].shape[1]  # pyright: ignore
         assert isinstance(num_channels, int)
     return num_channels
