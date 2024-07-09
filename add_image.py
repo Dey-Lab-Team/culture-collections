@@ -53,7 +53,7 @@ def move_zarr_file_to_correct_place(
     file_format: str,
     is_default_dataset: bool,
     dataset_folder: str,
-):
+) -> str:
     """More or less just to move data to correct place.
     Also takes care of creating the dataset correctly.
 
