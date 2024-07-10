@@ -174,6 +174,48 @@
           }
         }
       }
+    },
+    "T1_Hoechst_12g10_NHS647_001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/test_volumes/images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "T1_Hoechst_12g10_NHS647_001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/test_volumes/images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "T1_Hoechst_12g10_NHS647_001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/test_volumes/images/ome-zarr/T1_Hoechst_12g10_NHS647_001.ome.zarr/0"
+          }
+        }
+      }
     }
   },
   "views": {
@@ -377,6 +419,54 @@
             "opacity": 1.0,
             "sources": [
               "Point0000_ChannelDAPI_(Single_EM)_Seq0003"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "T1_Hoechst_12g10_NHS647_001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              91,
+              7613
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "T1_Hoechst_12g10_NHS647_001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              138,
+              9343
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "T1_Hoechst_12g10_NHS647_001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              428,
+              4013
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "T1_Hoechst_12g10_NHS647_001_ch2"
             ]
           }
         }
