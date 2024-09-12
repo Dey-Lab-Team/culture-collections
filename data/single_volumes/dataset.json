@@ -12629,6 +12629,328 @@
         }
       }
     },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20230626_rcc33741_pfa_tub-hoechst-nhs_series00_ch0": {
       "image": {
         "imageData": {
@@ -66343,6 +66665,364 @@
             "opacity": 1.0,
             "sources": [
               "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              551
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0,
+              610
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              261
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              0,
+              1899
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-356-Airyscan_Processing-04_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              221
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0,
+              2789
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              410
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              0,
+              786
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-357-Airyscan_Processing-05_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              278
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0,
+              1507
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              1,
+              478
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              0,
+              838
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-358-Airyscan_Processing-06_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              2,
+              139
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              1,
+              576
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              418
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              0,
+              143
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-359-Airyscan_Processing-03_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              243
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0,
+              5942
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              978
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-360-Airyscan_Processing-02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              202
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0,
+              501
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0,
+              284
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              0,
+              2245
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230625_Tokyo_NHS_tub_centr_DNA_Experiment-361-Airyscan_Processing-07_ch3"
             ]
           }
         }
