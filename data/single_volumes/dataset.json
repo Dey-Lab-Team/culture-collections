@@ -11453,6 +11453,1182 @@
         }
       }
     },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_014.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_015.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_016.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_017.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_018.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_019.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_020.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230621_Tokyo_chem_NHS_tub_centr_DNA_021.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20230626_rcc33741_pfa_tub-hoechst-nhs_series00_ch0": {
       "image": {
         "imageData": {
@@ -63865,6 +65041,1308 @@
             "opacity": 1.0,
             "sources": [
               "20230616_rccpretk1_pfa_tub-hoechst-nhs_series07_ch0"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              114,
+              21786
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              85,
+              29094
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              91,
+              11601
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              364,
+              1654
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_001_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_002": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              112,
+              11408
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              23671
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              88,
+              14181
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              1139
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_002_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_003": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              115,
+              48571
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              38044
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              87,
+              23125
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              2929
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_003_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_004": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              104,
+              28338
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              84,
+              33322
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              88,
+              18876
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              1268
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_004_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_005": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              348
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              102,
+              3655
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              93,
+              1410
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              373,
+              552
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_005_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_006": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              154
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              84,
+              1528
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              885
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              367,
+              522
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_006_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_007": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              274
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              85,
+              1161
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              1629
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              367,
+              595
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_007_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_008": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              115,
+              7600
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              1409
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              87,
+              582
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              477
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_008_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_009": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              100,
+              5168
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              1527
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              4126
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              469
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_009_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_010": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              107,
+              6503
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              2659
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              15400
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              1612
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_010_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_011": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              85,
+              1335
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              655
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              1548
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              367,
+              664
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_011_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_012": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              115,
+              10921
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              1234
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              2865
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              713
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_012_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_013": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              118,
+              9681
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              1269
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              2643
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              566
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_013_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_014": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              94,
+              6828
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              86,
+              1178
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              3982
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              538
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_014_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_015": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              114,
+              271
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              102,
+              221
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              99,
+              791
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              505
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_015_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_016": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              112,
+              7311
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              87,
+              1690
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              87,
+              2264
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              2944
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_016_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_017": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              120,
+              4565
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              84,
+              1419
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              1371
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              3411
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_017_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_018": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              121,
+              10642
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              86,
+              1294
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              2311
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              661
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_018_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_019": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              128,
+              11211
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              2601
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              2412
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              364,
+              1147
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_019_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_020": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              86,
+              272
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              85,
+              350
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              265
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              367,
+              443
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_020_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230621_Tokyo_chem_NHS_tub_centr_DNA_021": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              111,
+              5182
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              3303
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              88,
+              2498
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              800
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230621_Tokyo_chem_NHS_tub_centr_DNA_021_ch3"
             ]
           }
         }
