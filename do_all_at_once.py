@@ -1,4 +1,5 @@
 import argparse
+import warnings
 
 from mobie.metadata import add_remote_project_metadata  # pyright: ignore
 from tqdm import tqdm
@@ -71,12 +72,15 @@ def do_all_at_once(
         return
     source_name_of_volumes: list[str] = []
     for zarr_file_path in tqdm(zarr_file_paths, desc="Adding images to MoBIE"):
-        source_name_of_volume = add_multichannel_zarr_image(
-            zarr_file_path,
-            mobie_project_directory=mobie_project_directory,
-            dataset_name=dataset_name,
-        )
-        source_name_of_volumes.append(source_name_of_volume)
+        # ignore useless spamy warning from mobie
+        with warnings.catch_warnings():
+            warnings.filterwarnings("ignore")
+            source_name_of_volume = add_multichannel_zarr_image(
+                zarr_file_path,
+                mobie_project_directory=mobie_project_directory,
+                dataset_name=dataset_name,
+            )
+            source_name_of_volumes.append(source_name_of_volume)
     remove_tmp_folder()
 
     update_remote_project(
