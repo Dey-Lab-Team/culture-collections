@@ -69,7 +69,7 @@ def move_zarr_file_to_correct_place(
     """
     # ignore useless spamy warning from mobie
     with warnings.catch_warnings():
-        warnings.filterwarnings("ignore", message="Could not find data at")
+        warnings.filterwarnings("ignore")
         add_image(
             input_path=zarr_file_path,
             input_key="0/0",
