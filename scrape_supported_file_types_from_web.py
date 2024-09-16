@@ -59,12 +59,15 @@ SUPPORTED_FILE_TYPES = get_supported_file_types()
 
 
 def is_format_supported(file_path: str, warn: bool = False):
-    file_format = ".".join(os.path.split(file_path)[1].split(".")[1:])
-    if file_format in SUPPORTED_FILE_TYPES:
+    file_format1 = ".".join(os.path.split(file_path)[1].split(".")[1:])
+    # people use . in their file names, hot fix to tackle this
+    file_format2 = os.path.split(file_path)[1].split(".")[-1]
+    if file_format1 in SUPPORTED_FILE_TYPES or file_format2 in SUPPORTED_FILE_TYPES:
         return True
     if warn:
         warnings.warn(
-            f"{file_format} is not a supported file format. Ignoring this file."
+            f"Neither {file_format1} nor {file_format2} is a supported file format. "
+            + "Ignoring this file."
         )
     return False
 
