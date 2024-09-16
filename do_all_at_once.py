@@ -19,11 +19,14 @@ def update_remote_project(
 ):
     # add s3 metadata
     print("Adding s3 metadata...")
-    add_remote_project_metadata(
-        root=mobie_project_directory,
-        bucket_name=bucket_name + "/data",
-        service_endpoint="https://s3.embl.de",
-    )
+    # ignore useless spamy warning from mobie
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore")
+        add_remote_project_metadata(
+            root=mobie_project_directory,
+            bucket_name=bucket_name + "/data",
+            service_endpoint="https://s3.embl.de",
+        )
 
     # upload images to s3
     for data_path in tqdm(image_data_paths, desc="Uploading data to s3"):
@@ -72,15 +75,12 @@ def do_all_at_once(
         return
     source_name_of_volumes: list[str] = []
     for zarr_file_path in tqdm(zarr_file_paths, desc="Adding images to MoBIE"):
-        # ignore useless spamy warning from mobie
-        with warnings.catch_warnings():
-            warnings.filterwarnings("ignore")
-            source_name_of_volume = add_multichannel_zarr_image(
-                zarr_file_path,
-                mobie_project_directory=mobie_project_directory,
-                dataset_name=dataset_name,
-            )
-            source_name_of_volumes.append(source_name_of_volume)
+        source_name_of_volume = add_multichannel_zarr_image(
+            zarr_file_path,
+            mobie_project_directory=mobie_project_directory,
+            dataset_name=dataset_name,
+        )
+        source_name_of_volumes.append(source_name_of_volume)
     remove_tmp_folder()
 
     update_remote_project(

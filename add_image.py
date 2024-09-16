@@ -67,24 +67,21 @@ def move_zarr_file_to_correct_place(
         file_format (str): _description_
         is_default_dataset (bool): _description_
     """
-    # ignore useless spamy warning from mobie
-    with warnings.catch_warnings():
-        warnings.filterwarnings("ignore")
-        add_image(
-            input_path=zarr_file_path,
-            input_key="0/0",
-            root=mobie_project_directory,
-            dataset_name=dataset_name,
-            image_name=image_name,
-            file_format=file_format,
-            view={},  # manually add view at the end
-            is_default_dataset=is_default_dataset,
-            move_only=True,
-            resolution=None,  # not needed since we just move data
-            chunks=None,  # not needed since we just move data
-            scale_factors=None,  # not needed since we just move data
-            skip_add_to_dataset=True,  # we add it manually
-        )
+    add_image(
+        input_path=zarr_file_path,
+        input_key="0/0",
+        root=mobie_project_directory,
+        dataset_name=dataset_name,
+        image_name=image_name,
+        file_format=file_format,
+        view={},  # manually add view at the end
+        is_default_dataset=is_default_dataset,
+        move_only=True,
+        resolution=None,  # not needed since we just move data
+        chunks=None,  # not needed since we just move data
+        scale_factors=None,  # not needed since we just move data
+        skip_add_to_dataset=True,  # we add it manually
+    )
     # for ome-zarr data and metadata paths are the same
     image_data_path, _ = get_internal_paths(
         dataset_folder=dataset_folder, file_format=file_format, name=image_name
