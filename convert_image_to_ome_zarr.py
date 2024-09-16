@@ -9,7 +9,8 @@ from utils import filter_for_supported_file_formats
 
 
 def generate_zarr_file_path(input_file_path: str):
-    file_name = os.path.split(input_file_path)[1].split(".")[0]
+    # TODO: assumed that file format is single word with single dot
+    file_name = ".".join(os.path.split(input_file_path)[1].split(".")[:-1])
     file_name += ".ome.zarr"
     output_file_path = os.path.join(os.getcwd(), "tmp", file_name)
     return output_file_path
