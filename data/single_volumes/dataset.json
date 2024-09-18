@@ -13119,62 +13119,6 @@
         }
       }
     },
-    "20230629_Tokyo_chem-0_ch0": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "channel": 0,
-            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          },
-          "ome.zarr.s3": {
-            "channel": 0,
-            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          }
-        }
-      }
-    },
-    "20230629_Tokyo_chem-0_ch1": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "channel": 1,
-            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          },
-          "ome.zarr.s3": {
-            "channel": 1,
-            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          }
-        }
-      }
-    },
-    "20230629_Tokyo_chem-0_ch2": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "channel": 2,
-            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          },
-          "ome.zarr.s3": {
-            "channel": 2,
-            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          }
-        }
-      }
-    },
-    "20230629_Tokyo_chem-0_ch3": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "channel": 3,
-            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          },
-          "ome.zarr.s3": {
-            "channel": 3,
-            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.ome.zarr/0"
-          }
-        }
-      }
-    },
     "20230704_Tokyo_PCNA_bodipy_all-tub_DNA_001_ch0": {
       "image": {
         "imageData": {
@@ -67467,68 +67411,6 @@
             "opacity": 1.0,
             "sources": [
               "20230626_rcc33741_pfa_tub-hoechst-nhs_series03_ch2"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "volumes"
-    },
-    "20230629_Tokyo_chem-0": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "color": "white",
-            "contrastLimits": [
-              83,
-              344
-            ],
-            "name": "channel-1",
-            "opacity": 1.0,
-            "sources": [
-              "20230629_Tokyo_chem-0_ch0"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "color": "green",
-            "contrastLimits": [
-              86,
-              3386
-            ],
-            "name": "channel-2",
-            "opacity": 1.0,
-            "sources": [
-              "20230629_Tokyo_chem-0_ch1"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "color": "blue",
-            "contrastLimits": [
-              83,
-              968
-            ],
-            "name": "channel-3",
-            "opacity": 1.0,
-            "sources": [
-              "20230629_Tokyo_chem-0_ch2"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "color": "red",
-            "contrastLimits": [
-              377,
-              532
-            ],
-            "name": "channel-4",
-            "opacity": 1.0,
-            "sources": [
-              "20230629_Tokyo_chem-0_ch3"
             ]
           }
         }
