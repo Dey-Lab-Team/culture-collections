@@ -15205,6 +15205,468 @@
         }
       }
     },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20230705_rcc4804_pfa_tub-hoechst-nhs_series00_ch0": {
       "image": {
         "imageData": {
@@ -70763,6 +71225,534 @@
             "opacity": 1.0,
             "sources": [
               "20230704_rccq1-11_pfa_centr-tub-hoechst_series04_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              109,
+              6845
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              91,
+              16205
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              368,
+              13150
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_001_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              121,
+              3707
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              90,
+              2979
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              366,
+              2921
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_002_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              135,
+              4054
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              108,
+              14422
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              374,
+              670
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_003_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              99,
+              10643
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              26276
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              365,
+              22818
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_004_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              130,
+              5700
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              102,
+              10828
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              368,
+              10206
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_005_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              98,
+              2811
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              87,
+              6430
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              365,
+              1053
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_006_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              108,
+              3464
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              89,
+              1967
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              369,
+              2433
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_007_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              95,
+              5122
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              91,
+              8841
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              368,
+              6094
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_008_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              111,
+              8746
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              86,
+              8892
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              365,
+              10443
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_009_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              93,
+              3390
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              86,
+              4876
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              367,
+              6636
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_010_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              95,
+              7223
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              87,
+              5002
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              364,
+              15401
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230705_Tokyo_chem_0.01ga_Hoechst_tub-488_bodipy_011_ch2"
             ]
           }
         }
