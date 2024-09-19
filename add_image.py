@@ -33,7 +33,6 @@ def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
     with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
-        print(zarr_file, zarr_key)
         num_channels = f[zarr_key].shape[1]  # pyright: ignore
         assert isinstance(num_channels, int)
     return num_channels
@@ -100,6 +99,7 @@ def add_multichannel_zarr_image(
     file_format = "ome.zarr"
     dataset_folder = os.path.join(mobie_project_directory, dataset_name)
     image_base_name = os.path.basename(zarr_file).replace(".ome.zarr", "")
+
     # move file to correct place in MoBIE project
     image_data_path = move_zarr_file_to_correct_place(
         zarr_file_path=zarr_file,
