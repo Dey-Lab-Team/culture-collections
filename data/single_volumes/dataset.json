@@ -13119,6 +13119,1014 @@
         }
       }
     },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20230704_Tokyo_PCNA_bodipy_all-tub_DNA_001_ch0": {
       "image": {
         "imageData": {
@@ -67411,6 +68419,1122 @@
             "opacity": 1.0,
             "sources": [
               "20230626_rcc33741_pfa_tub-hoechst-nhs_series03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              310
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              88,
+              19910
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              3108
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              380,
+              1431
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0000_Seq0000_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              326
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              111,
+              27302
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              89,
+              3218
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              381,
+              1818
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0001_Seq0001_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              403
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              94,
+              46556
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              3243
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              382,
+              9548
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              264
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              92,
+              6133
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2037
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              378,
+              718
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0002_Seq0002_2_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              316
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              116,
+              23258
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              90,
+              3066
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              381,
+              6567
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              344
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              86,
+              3386
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              968
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              377,
+              532
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0003_Seq0003_2_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              351
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              99,
+              65535
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              87,
+              3434
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              378,
+              6951
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0004_Seq0004_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              339
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              126,
+              16075
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              99,
+              4225
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              391,
+              6532
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0005_Seq0005_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              302
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              103,
+              4027
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              89,
+              4224
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              382,
+              2499
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0006_Seq0006_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              297
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              109,
+              12954
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              90,
+              4027
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              388,
+              4496
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0007_Seq0007_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              312
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              111,
+              25725
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              95,
+              2605
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              389,
+              2011
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0008_Seq0008_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              269
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              109,
+              12414
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              88,
+              2647
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              381,
+              15664
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0009_Seq0009_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              247
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              97,
+              1904
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              1175
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              406,
+              1140
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0010_Seq0010_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              304
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              127,
+              22751
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              101,
+              2938
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              400,
+              6181
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0011_Seq0011_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              334
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              95,
+              28937
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              2871
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              380,
+              4199
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0012_Seq0012_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              284
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              95,
+              26536
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2615
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              378,
+              7114
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_actin_bodipy_tubulin_DNA_Point0013_Seq0013_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              114,
+              29246
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              123,
+              17706
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              928
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              378,
+              12162
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0000_Seq0000_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              192,
+              11959
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              125,
+              2725
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              588
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              390,
+              11892
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230629_Tokyo_chem-0.025GA_npc_bodipy_tubulin_DNA_Point0001_Seq0001_ch3"
             ]
           }
         }
