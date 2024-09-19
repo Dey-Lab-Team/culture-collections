@@ -1,12 +1,11 @@
 import argparse
-import warnings
 
-from mobie.metadata import add_remote_project_metadata  # pyright: ignore
 from tqdm import tqdm
 
 from add_image import add_multichannel_zarr_image, remove_tmp_folder
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
+from update_remote_info_in_mobie import update_remote_info_in_mobie
 from upload_data_to_s3 import upload_to_s3
 from utils import filter_for_supported_file_formats
 
@@ -18,15 +17,9 @@ def update_remote_project(
     s3_alias: str,
 ):
     # add s3 metadata
-    print("Adding s3 metadata...")
-    # ignore useless spamy warning from mobie
-    with warnings.catch_warnings():
-        warnings.filterwarnings("ignore")
-        add_remote_project_metadata(
-            root=mobie_project_directory,
-            bucket_name=bucket_name + "/data",
-            service_endpoint="https://s3.embl.de",
-        )
+    update_remote_info_in_mobie(
+        mobie_project_directory=mobie_project_directory, bucket_name=bucket_name
+    )
 
     # upload images to s3
     for data_path in tqdm(image_data_paths, desc="Uploading data to s3"):
