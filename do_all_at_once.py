@@ -108,6 +108,9 @@ def get_args():
     )
     # just to allow another input like 'test' to debug things
     parser.add_argument("--dataset_name", "-dsn", default="single_volumes", type=str)
+    parser.add_argument(
+        "-dry", "--dry_run", action="store_true", help="Just list input files."
+    )
     args = parser.parse_args()
     return args
 
@@ -116,6 +119,11 @@ def main():
     # get input arguments
     args = get_args()
     input_files = filter_for_supported_file_formats(args.input_data)
+    if args.dry_run:
+        print("Input files:")
+        for file in input_files:
+            print(file)
+        return
     do_all_at_once(
         input_files=input_files, dataset_name=args.dataset_name, s3_alias=args.s3_alias
     )
