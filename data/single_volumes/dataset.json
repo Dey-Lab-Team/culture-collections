@@ -17557,6 +17557,286 @@
         }
       }
     },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20230718_rcc5249_pfa_centr-tub-hoechst_series00_ch0": {
       "image": {
         "imageData": {
@@ -74475,6 +74755,316 @@
             "opacity": 1.0,
             "sources": [
               "20230711_Tokyo_003_series01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              92,
+              9774
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              2910
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              105,
+              7032
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              1212
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_001_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              91,
+              2088
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              1531
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              99,
+              2451
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              797
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_002_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              318
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              84,
+              496
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              820
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              665
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_003_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              94,
+              13386
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              2136
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              105,
+              4673
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              365,
+              1139
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_004_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              90,
+              8781
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              82,
+              3026
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              97,
+              5896
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              366,
+              612
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20230717_tokyo_flabellula_plungefrozen_NHS_tub_actin_DNA_005_ch3"
             ]
           }
         }
