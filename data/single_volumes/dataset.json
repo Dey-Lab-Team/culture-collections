@@ -59026,6 +59026,54 @@
           }
         }
       }
+    },
+    "rcc_p15-107_pfa_hs_bod_01": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_bod_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_bod_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p15-107_pfa_hs_dna_01": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_dna_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_dna_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p15-107_pfa_hs_nhs_01": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p15-107_pfa_hs_tub_01": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_tub_01.ome.zarr/0"
+          }
+        }
+      }
     }
   },
   "views": {
@@ -125957,6 +126005,68 @@
     },
     "default": {
       "uiSelectionGroup": "bookmark"
+    },
+    "rcc_p15-107_pfa_hs_bod-dna-nhs-tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              264
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_bod_01"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              76,
+              224
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_dna_01"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              216
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_nhs_01"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              76,
+              213
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_tub_01"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
     }
   }
 }
