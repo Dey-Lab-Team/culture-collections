@@ -59195,6 +59195,18 @@
         }
       }
     },
+    "rcc_p15-107_pfa_hs_bod_15": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_bod_15.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_bod_15.ome.zarr/0"
+          }
+        }
+      }
+    },
     "rcc_p15-107_pfa_hs_dna_01": {
       "image": {
         "imageData": {
@@ -59359,6 +59371,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_dna_14.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p15-107_pfa_hs_dna_15": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_dna_15.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_dna_15.ome.zarr/0"
           }
         }
       }
@@ -59531,6 +59555,18 @@
         }
       }
     },
+    "rcc_p15-107_pfa_hs_nhs_15": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_nhs_15.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_nhs_15.ome.zarr/0"
+          }
+        }
+      }
+    },
     "rcc_p15-107_pfa_hs_tub_01": {
       "image": {
         "imageData": {
@@ -59695,6 +59731,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_tub_14.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p15-107_pfa_hs_tub_15": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_p15-107_pfa_hs_tub_15.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p15-107_pfa_hs_tub_15.ome.zarr/0"
           }
         }
       }
@@ -127492,6 +127540,68 @@
             "opacity": 1.0,
             "sources": [
               "rcc_p15-107_pfa_hs_tub_14"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p15-107_pfa_hs_bod-dna-nhs-tub_15": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              82,
+              244
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_bod_15"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              74,
+              223
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_dna_15"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              230
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_nhs_15"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              76,
+              157
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p15-107_pfa_hs_tub_15"
             ]
           }
         }
