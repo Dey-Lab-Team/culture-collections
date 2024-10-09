@@ -58,6 +58,14 @@ def get_args():
         "You defined this when you added the s3 to the minio "
         "client as an alias.",
     )
+    parser.add_argument(
+        "--tmp_dir",
+        "-td",
+        type=str,
+        default="tmp",
+        help="Path to the directory where the ome-zarr files will be saved before they "
+        "are moved to the project.",
+    )
     # just to allow another input like 'test' to debug things
     parser.add_argument("--dataset_name", "-dsn", default="single_volumes", type=str)
     args = parser.parse_args()
@@ -76,6 +84,7 @@ def main():
             view_name=view_name_map[volume_name],
             dataset_name=args.dataset_name,
             s3_alias=args.s3_alias,
+            tmp_dir=args.tmp_dir,
         )
 
 

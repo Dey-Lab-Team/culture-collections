@@ -131,6 +131,14 @@ def get_args():
         help="Whether to calculate contrast limits for the image. "
         "Makes adding the image slower, but the image will look better.",
     )
+    parser.add_argument(
+        "--tmp_dir",
+        "-td",
+        type=str,
+        default="tmp",
+        help="Path to the directory where the ome-zarr files will be saved before they "
+        "are moved to the project.",
+    )
     return parser.parse_args()
 
 
@@ -150,7 +158,7 @@ def main():
         view_name=args.view_name,
         calculate_contrast_limits=args.calculate_contrast_limits,
     )
-    remove_tmp_folder()
+    remove_tmp_folder(tmp_dir=args.tmp_dir)
 
 
 if __name__ == "__main__":

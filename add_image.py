@@ -1,7 +1,6 @@
 import argparse
 import os
 import shutil
-import warnings
 from typing import Any
 
 import zarr  # pyright: ignore
@@ -21,12 +20,12 @@ DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
 DEFAULT_NAMES_PER_CHANNEL = ["channel-1", "channel-2", "channel-3", "channel-4"]
 
 
-def remove_tmp_folder():
-    if not os.path.exists("tmp"):
+def remove_tmp_folder(tmp_dir: str = "tmp"):
+    if not os.path.exists(tmp_dir):
         return
     # maybe the safety if statement can be removed
-    if len(os.listdir("tmp")) == 0:
-        shutil.rmtree("tmp")
+    if len(os.listdir(tmp_dir)) == 0:
+        shutil.rmtree(tmp_dir)
 
 
 def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
@@ -196,6 +195,14 @@ def get_args():
         help="Whether to calculate contrast limits for the image. "
         "Makes adding the image slower, but the image will look better.",
     )
+    parser.add_argument(
+        "--tmp_dir",
+        "-td",
+        type=str,
+        default="tmp",
+        help="Path to the directory where the ome-zarr files will be saved before they "
+        "are moved to the project.",
+    )
     return parser.parse_args()
 
 
@@ -216,7 +223,7 @@ def main():
             dataset_name=args.dataset_name,
             calculate_contrast_limits=args.calculate_contrast_limits,
         )
-    remove_tmp_folder()
+    remove_tmp_folder(tmp_dir=args.tmp_dir)
 
 
 if __name__ == "__main__":

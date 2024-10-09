@@ -18,11 +18,12 @@ def do_all_at_once_seperate_channels(
     dataset_name: str = "single_volumes",
     bucket_name: str = "culture-collections",
     s3_alias: str = "culcol_s3_rw",
+    tmp_dir: str = "tmp",
 ):
     # convert images to ome-zarr
     channel_zarr_file_paths: list[str] = []
     for file_path in tqdm(channel_files, desc="Converting files"):
-        zarr_file_path = convert_to_ome_zarr(file_path)
+        zarr_file_path = convert_to_ome_zarr(file_path, tmp_dir=tmp_dir)
         channel_zarr_file_paths.append(zarr_file_path)
 
     # add images to MoBIE project
@@ -40,7 +41,7 @@ def do_all_at_once_seperate_channels(
         dataset_name=dataset_name,
         view_name=view_name,
     )
-    remove_tmp_folder()
+    remove_tmp_folder(tmp_dir=tmp_dir)
 
     update_remote_project(
         image_data_paths=source_name_of_volumes,
@@ -87,6 +88,14 @@ def get_args():
         "You defined this when you added the s3 to the minio "
         "client as an alias.",
     )
+    parser.add_argument(
+        "--tmp_dir",
+        "-td",
+        type=str,
+        default="tmp",
+        help="Path to the directory where the ome-zarr files will be saved before they "
+        "are moved to the project.",
+    )
     # just to allow another input like 'test' to debug things
     parser.add_argument("--dataset_name", "-dsn", default="single_volumes", type=str)
     args = parser.parse_args()
@@ -102,6 +111,7 @@ def main():
         view_name=args.view_name,
         dataset_name=args.dataset_name,
         s3_alias=args.s3_alias,
+        tmp_dir=args.tmp_dir,
     )
 
 
