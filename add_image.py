@@ -28,6 +28,14 @@ def remove_tmp_folder(tmp_dir: str = "tmp"):
         shutil.rmtree(tmp_dir)
 
 
+def remove_local_image_folder(
+    mobie_project_directory: str = "data", dataset_name: str = "single_volumes"
+):
+    dataset_folder = os.path.join(mobie_project_directory, dataset_name, "images")
+    if os.path.exists(dataset_folder):
+        shutil.rmtree(dataset_folder)
+
+
 def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
     with open_file(zarr_file, mode="r") as f:  # pyright: ignore

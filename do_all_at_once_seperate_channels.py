@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 
-from add_image import remove_tmp_folder
+from add_image import remove_local_image_folder, remove_tmp_folder
 from add_image_seperate_channels import add_image_with_seperate_channels
 from convert_image_to_ome_zarr import convert_to_ome_zarr
 from do_all_at_once import update_remote_project
@@ -48,6 +48,10 @@ def do_all_at_once_seperate_channels(
         mobie_project_directory=mobie_project_directory,
         bucket_name=bucket_name,
         s3_alias=s3_alias,
+    )
+
+    remove_local_image_folder(
+        mobie_project_directory=mobie_project_directory, dataset_name=dataset_name
     )
 
 
