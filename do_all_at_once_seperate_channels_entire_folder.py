@@ -82,10 +82,10 @@ def main():
     volume_channel_file_map = group_files_by_volume(channel_files)
     view_name_map = generate_view_names(volume_channel_file_map)
     if args.dry_run:
-        print("volume_channel_file_map:")
+        print(f"volume_channel_file_map (len = {len(volume_channel_file_map)}):")
         print(volume_channel_file_map)
         print()
-        print("view_name_map:")
+        print(f"view_name_map (len = {len(view_name_map)}):")
         print(view_name_map)
         print()
         return
