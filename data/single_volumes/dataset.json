@@ -59746,6 +59746,1882 @@
           }
         }
       }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch3": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_axo49_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_cetn_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_gt335_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_polyE_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_00.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_01.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_02.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_03.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch0": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch1": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 1,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 1,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch2": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 2,
+            "relativePath": "images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "channel": 2,
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr/0"
+          }
+        }
+      }
     }
   },
   "views": {
@@ -127602,6 +129478,2122 @@
             "opacity": 1.0,
             "sources": [
               "rcc_p15-107_pfa_hs_tub_15"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              103,
+              6449
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              534,
+              3390
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              392,
+              10913
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3120
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_00_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              10841
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              536,
+              5796
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              379,
+              8594
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3303
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_01_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              9806
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              567,
+              5890
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              383,
+              10431
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3602
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_02_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              85,
+              10989
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              509,
+              5918
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              376,
+              7000
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3232
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_03_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              14339
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              495,
+              5655
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              375,
+              6912
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3487
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_TubA1monoE_tub_nhs_04_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              3934
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              524,
+              9694
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              379,
+              10343
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              2789
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_00_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              86,
+              6074
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              495,
+              6845
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              381,
+              12601
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              3707
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_01_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              87,
+              14486
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              494,
+              7301
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              380,
+              7901
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              84,
+              3343
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_02_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              85,
+              2513
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              467,
+              4831
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              380,
+              10109
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              2798
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_03_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              13070
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              532,
+              5604
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              6968
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              1078
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_04_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              85,
+              10450
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              563,
+              10067
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              381,
+              10249
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              84,
+              3117
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_05_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              84,
+              8157
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              488,
+              3150
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              379,
+              5764
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              284
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_06_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              13489
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              519,
+              5263
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              6144
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              396
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_07_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              83,
+              2110
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              490,
+              5774
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              378,
+              7157
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch2"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              762
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_dna_glypep1_tub_nhs_08_ch3"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              457,
+              4264
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              377,
+              6099
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              4020
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              582,
+              5348
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              5709
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              4092
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              528,
+              7987
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              8108
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              4220
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              566,
+              4705
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              381,
+              4368
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              2969
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              559,
+              3284
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              377,
+              4731
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3282
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_Delta2tub_tub_04_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              377,
+              1045
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              373,
+              8251
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              3049
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              377,
+              1146
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              377,
+              4256
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              3207
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              378,
+              741
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              7615
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2554
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              377,
+              1168
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              8235
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              3414
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_axo49_tub_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              376,
+              850
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              375,
+              8111
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2695
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_axo49_tub_04_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              389,
+              11984
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              376,
+              13541
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3361
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              400,
+              8776
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              379,
+              8366
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              86,
+              3408
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_cetn_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              378,
+              3411
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              1449
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              3126
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_cetn_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              430,
+              1240
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              372,
+              8685
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3156
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              417,
+              1049
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              372,
+              4543
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2967
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_gt335_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              420,
+              1020
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              373,
+              5860
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2934
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_gt335_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              578,
+              4605
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              4826
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              3776
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              1060,
+              5236
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              380,
+              9474
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3825
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              928,
+              5425
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              378,
+              7131
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3335
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              504,
+              1986
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              377,
+              2023
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2753
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_polyE_tub_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              620,
+              6085
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              375,
+              3798
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              3378
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_polyE_tub_04_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_00": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              376,
+              1056
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              374,
+              5377
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              85,
+              3207
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_00_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_01": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              375,
+              1327
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              373,
+              5415
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              2950
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_01_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_02": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              374,
+              910
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              375,
+              4025
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              2860
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_02_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_03": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              375,
+              2320
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              374,
+              10727
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              83,
+              2232
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_03_ch2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_p22-120_pfa_hs_nhs_tap952_tub_04": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              376,
+              1082
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch0"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              374,
+              4760
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch1"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              84,
+              3400
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_p22-120_pfa_hs_nhs_tap952_tub_04_ch2"
             ]
           }
         }
