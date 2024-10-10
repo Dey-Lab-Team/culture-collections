@@ -59,6 +59,9 @@ def get_args():
         "client as an alias.",
     )
     parser.add_argument(
+        "-dry", "--dry_run", action="store_true", help="Just list input files."
+    )
+    parser.add_argument(
         "--tmp_dir",
         "-td",
         type=str,
@@ -78,6 +81,14 @@ def main():
     channel_files = sorted(filter_for_supported_file_formats(args.directory))
     volume_channel_file_map = group_files_by_volume(channel_files)
     view_name_map = generate_view_names(volume_channel_file_map)
+    if args.dry_run:
+        print("volume_channel_file_map:")
+        print(volume_channel_file_map)
+        print()
+        print("view_name_map:")
+        print(view_name_map)
+        print()
+        return
     for volume_name, channel_files in volume_channel_file_map.items():
         do_all_at_once_seperate_channels(
             channel_files=channel_files,
