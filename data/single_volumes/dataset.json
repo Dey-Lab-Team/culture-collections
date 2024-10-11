@@ -46893,6 +46893,18 @@
         }
       }
     },
+    "20240213_bmcc_868_pfa_hs_cent_06": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240213_bmcc_868_pfa_hs_cent_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_cent_06.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20240213_bmcc_868_pfa_hs_dna_01": {
       "image": {
         "imageData": {
@@ -46949,6 +46961,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_dna_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20240213_bmcc_868_pfa_hs_dna_06": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240213_bmcc_868_pfa_hs_dna_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_dna_06.ome.zarr/0"
           }
         }
       }
@@ -47013,6 +47037,18 @@
         }
       }
     },
+    "20240213_bmcc_868_pfa_hs_nhs_06": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240213_bmcc_868_pfa_hs_nhs_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_nhs_06.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20240213_bmcc_868_pfa_hs_tub_01": {
       "image": {
         "imageData": {
@@ -47069,6 +47105,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_tub_05.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20240213_bmcc_868_pfa_hs_tub_06": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240213_bmcc_868_pfa_hs_tub_06.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240213_bmcc_868_pfa_hs_tub_06.ome.zarr/0"
           }
         }
       }
@@ -115823,6 +115871,68 @@
             "opacity": 1.0,
             "sources": [
               "20240213_bmcc_868_pfa_hs_tub_05"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20240213_bmcc_868_pfa_hs_cent-dna-nhs-tub_06": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              79,
+              1985
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20240213_bmcc_868_pfa_hs_cent_06"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              75,
+              592
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20240213_bmcc_868_pfa_hs_dna_06"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              90,
+              1518
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20240213_bmcc_868_pfa_hs_nhs_06"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              87,
+              818
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20240213_bmcc_868_pfa_hs_tub_06"
             ]
           }
         }
