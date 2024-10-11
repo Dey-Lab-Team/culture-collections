@@ -140,6 +140,7 @@ def main():
         print("Input files:")
         for file in input_files:
             print(file)
+        print(len(input_files))
         return
     do_all_at_once(
         input_files=input_files,
