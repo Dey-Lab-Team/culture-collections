@@ -48001,6 +48001,18 @@
         }
       }
     },
+    "20240214_bmcc_4_pfa_hs_cent_05": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240214_bmcc_4_pfa_hs_cent_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_cent_05.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20240214_bmcc_4_pfa_hs_dna_01": {
       "image": {
         "imageData": {
@@ -48045,6 +48057,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_dna_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20240214_bmcc_4_pfa_hs_dna_05": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240214_bmcc_4_pfa_hs_dna_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_dna_05.ome.zarr/0"
           }
         }
       }
@@ -48097,6 +48121,18 @@
         }
       }
     },
+    "20240214_bmcc_4_pfa_hs_nhs_05": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240214_bmcc_4_pfa_hs_nhs_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_nhs_05.ome.zarr/0"
+          }
+        }
+      }
+    },
     "20240214_bmcc_4_pfa_hs_tub_01": {
       "image": {
         "imageData": {
@@ -48141,6 +48177,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_tub_04.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "20240214_bmcc_4_pfa_hs_tub_05": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/20240214_bmcc_4_pfa_hs_tub_05.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20240214_bmcc_4_pfa_hs_tub_05.ome.zarr/0"
           }
         }
       }
@@ -117351,6 +117399,68 @@
             "opacity": 1.0,
             "sources": [
               "20240214_bmcc_4_pfa_hs_tub_04"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "20240214_bmcc_4_pfa_hs_cent-dna-nhs-tub_05": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              76,
+              128
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "20240214_bmcc_4_pfa_hs_cent_05"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              76,
+              130
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "20240214_bmcc_4_pfa_hs_dna_05"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              82,
+              131
+            ],
+            "name": "channel-3",
+            "opacity": 1.0,
+            "sources": [
+              "20240214_bmcc_4_pfa_hs_nhs_05"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              83,
+              121
+            ],
+            "name": "channel-4",
+            "opacity": 1.0,
+            "sources": [
+              "20240214_bmcc_4_pfa_hs_tub_05"
             ]
           }
         }
