@@ -61331,6 +61331,18 @@
         }
       }
     },
+    "rcc_6327_pfa_hs_Azo49_07": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_6327_pfa_hs_Azo49_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_6327_pfa_hs_Azo49_07.ome.zarr/0"
+          }
+        }
+      }
+    },
     "rcc_6327_pfa_hs_glypep1_00": {
       "image": {
         "imageData": {
@@ -61447,6 +61459,18 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_6327_pfa_hs_tub_06.ome.zarr/0"
+          }
+        }
+      }
+    },
+    "rcc_6327_pfa_hs_tub_07": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/rcc_6327_pfa_hs_tub_07.ome.zarr/0"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/rcc_6327_pfa_hs_tub_07.ome.zarr/0"
           }
         }
       }
@@ -134166,6 +134190,40 @@
             "opacity": 1.0,
             "sources": [
               "rcc_6327_pfa_hs_tub_06"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "volumes"
+    },
+    "rcc_6327_pfa_hs_Azo49-tub_07": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              76,
+              181
+            ],
+            "name": "channel-1",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_6327_pfa_hs_Azo49_07"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              83,
+              346
+            ],
+            "name": "channel-2",
+            "opacity": 1.0,
+            "sources": [
+              "rcc_6327_pfa_hs_tub_07"
             ]
           }
         }
