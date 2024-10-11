@@ -1,6 +1,5 @@
 {
   "datasets": [
-    "test_volumes",
     "single_volumes"
   ],
   "defaultDataset": "single_volumes",
