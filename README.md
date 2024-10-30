@@ -1,21 +1,26 @@
 # culture-collections
-This repository contains both, the metadata of the culture-collections [MoBIE](https://mobie.github.io/) project as well as the according python scripts to create and update the project.
+This repository provides easy access to the data from [Charting the landscape of cytoskeletal diversity in microbial eukaryotes](https://doi.org/10.1101/2024.10.18.618984). It contains both, the metadata of the [MoBIE](https://mobie.github.io/) project as well as the according python scripts to create and update the project.
 
-## Background
-TODO:
-- culture collections used, link to their website
-- link paper
-- a bit more background info
+## Usage
+- install [Fiji](https://imagej.net/software/fiji/downloads) and the [MoBIE plugin](https://mobie.github.io/tutorials/installation.html)
+- open Fiji, type "mobie" in the search bar and run "Open MoBIE Project..."
+- enter https://github.com/Dey-Lab-Team/culture-collections, chose "Remote" and click "OK"
+- you are ready to explore the data 
 
-## External users
-TODO:
-- install Fiji, and MoBIE
-- open...
+![](readme_images/start_mobie.png)
 
+![](readme_images/url_remote.png)
 
-## Internal users
+![](readme_images/example.png)
+
+## Download data
+Data is stored in this [S3 bucket](https://console.s3.embl.de/browser/culture-collections) and can be downloaded from there.
+
+## Contributing
 *NOTE: This part is relevant only for researchers who are part of the project.*
 
+<details>
+<summary>Getting write access & adding data</summary>
 ### Rough idea
 The basic idea of this project is to find a way to share the imaging data between the different participating labs. The imaging data itself lives on a central s3 storage provided by EMBL. In general, collaborating labs can upload data to and download data from there. For now, the internal structure of this s3 storage (called a "bucket") is defined by the MoBIE project that was established to simplify the visualization of the data. [MoBIE](https://mobie.github.io/) is a tool to visualize large image files and stream them directly from a s3 storage. By this users don't need to download GBs of data to their local machine. This is faciliated by the ome-zarr file format. This file format provides an image pyramid with different levels of resolution and image data that is cut into pieces (called "chunks"), which allows MoBIE to only load data that is currently needed. The MoBIE metadata, meaning the data that tells MoBIE where to find and how to visualize the actual imaging data, is part of this git repository. By this we have it version controlled and easily accessible from the outside (see section [Internal users](#internal-users)). For now, everything is private and not visible to the public.
 
@@ -202,3 +207,4 @@ Start Fiji. Enter `mobie` into the search bar (lower right). Choose `Open MoBIE 
 - `Preferentially Fetch Data From`: `Local` = local image data is used, can't open remote image data, potentially faster | `Remote` = data is streamed from s3, all data available, depends on the speed of your internet connection
 - `S3 Access Key`: the public key of the read-only key pair you got
 - `S3 Secret Key`: the secret key of the read-only key pair you got
+</details>

@@ -6,8 +6,6 @@
 *.hdf5
 events.*
 *.code-workspace
-*.png
-*.PNG
 *.tif
 *.tiff
 *.zip
@@ -19,7 +17,6 @@ events.*
 *.db
 *.out
 *.err
-*.png
 *.pdf
 *.ome.zarr
 *.ome-zarr
