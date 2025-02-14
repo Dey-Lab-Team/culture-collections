@@ -44,7 +44,7 @@ def scrape_supported_file_types_from_page(page: requests.Response):
 
 
 def get_supported_file_types(url: str = URL, scrape_again: bool = False) -> list[str]:
-    path = __file__ + "/supported_file_types.txt"
+    path = os.path.dirname(__file__) + "/supported_file_types.txt"
     if os.path.isfile(path) and not scrape_again:
         return json.load(open(path, "r"))
     page = get_page(url)
