@@ -7,14 +7,14 @@ from elf.io import open_file  # pyright: ignore
 from mobie.metadata import add_source_to_dataset  # pyright: ignore
 from mobie.view_utils import create_view  # pyright: ignore
 
-from add_image import (
+from .add_image import (
     DEFAULT_COLORS_PER_CHANNEL,
     DEFAULT_NAMES_PER_CHANNEL,
     move_zarr_file_to_correct_place,
     remove_tmp_folder,
 )
-from calc_contrast import get_contrast_limits
-from update_project_on_github import pull
+from .calc_contrast import get_contrast_limits
+from .update_project_on_github import pull
 
 
 def has_single_channel(zarr_file: str, zarr_key: str) -> bool:

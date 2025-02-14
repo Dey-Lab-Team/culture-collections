@@ -1,8 +1,8 @@
 import argparse
 import os
 
-from do_all_at_once_seperate_channels import do_all_at_once_seperate_channels
-from utils import filter_for_supported_file_formats
+from .do_all_at_once_seperate_channels import do_all_at_once_seperate_channels
+from .utils import filter_for_supported_file_formats
 
 
 def group_files_by_volume(channel_files: list[str]) -> dict[str, list[str]]:

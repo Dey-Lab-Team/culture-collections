@@ -2,16 +2,16 @@ import argparse
 
 from tqdm import tqdm
 
-from add_image import (
+from .add_image import (
     add_multichannel_zarr_image,
     remove_local_image_folder,
     remove_tmp_folder,
 )
-from convert_image_to_ome_zarr import convert_to_ome_zarr
-from update_project_on_github import pull, stage_all_and_commit, sync_with_remote
-from update_remote_info_in_mobie import update_remote_info_in_mobie
-from upload_data_to_s3 import upload_to_s3
-from utils import filter_for_supported_file_formats
+from .convert_image_to_ome_zarr import convert_to_ome_zarr
+from .update_project_on_github import pull, stage_all_and_commit, sync_with_remote
+from .update_remote_info_in_mobie import update_remote_info_in_mobie
+from .upload_data_to_s3 import upload_to_s3
+from .utils import filter_for_supported_file_formats
 
 
 def update_remote_project(

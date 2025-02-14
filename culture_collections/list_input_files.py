@@ -1,6 +1,6 @@
 import argparse
 
-from utils import filter_for_supported_file_formats
+from .utils import filter_for_supported_file_formats
 
 
 def get_args():

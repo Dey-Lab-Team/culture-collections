@@ -10,10 +10,10 @@ from mobie.metadata import add_source_to_dataset  # pyright: ignore
 from mobie.utils import get_internal_paths  # pyright: ignore
 from mobie.view_utils import create_view  # pyright: ignore
 from tqdm import tqdm
-from update_project_on_github import pull
-from utils import filter_for_ome_zarr
 
 from .calc_contrast import get_contrast_limits
+from .update_project_on_github import pull
+from .utils import filter_for_ome_zarr
 
 DEFAULT_COLORS_PER_CHANNEL = ["white", "green", "blue", "red"]
 # TODO: read them from file name? or from csv?
