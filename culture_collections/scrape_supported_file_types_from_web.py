@@ -44,25 +44,23 @@ def scrape_supported_file_types_from_page(page: requests.Response):
 
 
 def get_supported_file_types(url: str = URL, scrape_again: bool = False) -> list[str]:
-    if os.path.isfile("supported_file_types.txt") and not scrape_again:
-        return json.load(open("supported_file_types.txt", "r"))
+    path = __file__ + "/supported_file_types.txt"
+    if os.path.isfile(path) and not scrape_again:
+        return json.load(open(path, "r"))
     page = get_page(url)
     entries = scrape_supported_file_types_from_page(page)
     entries = sorted(entries)
-    with open("supported_file_types.txt", "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     return entries
 
 
-# TODO: is this the correct way of doing it?
-SUPPORTED_FILE_TYPES = get_supported_file_types()
-
-
 def is_format_supported(file_path: str, warn: bool = False):
+    supported_file_types = get_supported_file_types()
     file_format1 = ".".join(os.path.split(file_path)[1].split(".")[1:])
     # people use . in their file names, hot fix to tackle this
     file_format2 = os.path.split(file_path)[1].split(".")[-1]
-    if file_format1 in SUPPORTED_FILE_TYPES or file_format2 in SUPPORTED_FILE_TYPES:
+    if file_format1 in supported_file_types or file_format2 in supported_file_types:
         return True
     if warn:
         warnings.warn(
