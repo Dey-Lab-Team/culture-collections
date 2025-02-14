@@ -36,7 +36,7 @@ def remove_local_image_folder(
         shutil.rmtree(dataset_folder)
 
 
-def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
+def get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int:
     # zarr_file needs to end with ome-zarr, otherwise elf misinterprets it
     with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
@@ -45,7 +45,7 @@ def _get_number_of_channels_from_zarr_file(zarr_file: str, zarr_key: str) -> int
     return num_channels
 
 
-def _get_series_ids_from_zarr_file(zarr_file: str) -> list[int]:
+def get_series_ids_from_zarr_file(zarr_file: str) -> list[int]:
     with open_file(zarr_file, mode="r") as f:  # pyright: ignore
         assert isinstance(f, zarr.Group)
         series_ids = f["OME"].attrs["series"]  # pyright: ignore
@@ -118,7 +118,7 @@ def add_multichannel_zarr_image(
         dataset_folder=dataset_folder,
     )
     # loop over series, handle each as a seperate volume (i.e. giving it a view)
-    series_ids = _get_series_ids_from_zarr_file(image_data_path)
+    series_ids = get_series_ids_from_zarr_file(image_data_path)
     for series_id in series_ids:
         # use correct series and highe
         zarr_key = f"{series_id}/0"
@@ -128,7 +128,7 @@ def add_multichannel_zarr_image(
         # add the series name to the path
         series_specific_data_path = image_data_path + f"/{series_id}"
         # set color and contrast limits for each channel
-        num_channels = _get_number_of_channels_from_zarr_file(
+        num_channels = get_number_of_channels_from_zarr_file(
             zarr_file=image_data_path, zarr_key=zarr_key
         )
         display_settings: list[dict[str, Any]] = [
