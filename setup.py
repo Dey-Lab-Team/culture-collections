@@ -6,6 +6,6 @@ setup(
     description="Python files to create a MoBIE project for culture collections",
     author="Jonas Hellgoth",
     author_email="jonas.hellgoth@embl.de",
-    packages=["culture-collections"],  # same as name
+    packages=["culture_collections"],  # same as name
     install_requires=["numpy", "elf", "mobie"],  # external packages as dependencies
 )
