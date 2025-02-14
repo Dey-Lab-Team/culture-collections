@@ -70,7 +70,7 @@ def main():
     args = get_args()
     input_files = filter_for_supported_file_formats(args.input_data)
     for input_file in tqdm(input_files, desc="Converting images to ome-zarr"):
-        _ = convert_to_ome_zarr(input_file, args.tmp_dir)
+        _ = convert_to_ome_zarr(input_file_path=input_file, tmp_dir=args.tmp_dir)
 
 
 if __name__ == "__main__":
