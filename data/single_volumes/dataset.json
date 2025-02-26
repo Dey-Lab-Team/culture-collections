@@ -94,7 +94,10 @@
           }
         }
       ],
-      "uiSelectionGroup": "volumes"
+      "uiSelectionGroups": [
+        "volumes1",
+        "volumes2"
+      ]
     }
   }
 }
