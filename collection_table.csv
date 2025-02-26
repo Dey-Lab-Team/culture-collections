@@ -1,4 +1,4 @@
 uri	name	type	channel	color	view	exclusive	group	contrast_limits
-https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch1	intensities	0 white	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(0;12)
-https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch2	intensities	1 green	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(3;41)
-https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch3	intensities	2 blue	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(0;78)
+https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch1	intensities	0	white	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(0;12)
+https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch2	intensities	1	green	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(3;41)
+https://s3.embl.de/culture-collections/data/single_volumes/images/ome-zarr/20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst.ome.zarr/0	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst-ch3	intensities	2	blue	20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst	true	test	(0;78)
