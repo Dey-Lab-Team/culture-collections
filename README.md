@@ -14,7 +14,27 @@ This repository provides easy access to the data from [Charting the landscape of
 ![](readme_images/example.png)
 
 ## Download data
-Data is stored in this [S3 bucket](https://console.s3.embl.de/browser/culture-collections) and can be downloaded from there.
+Data is stored in this [S3 bucket](https://console.s3.embl.de/browser/culture-collections) and can be downloaded from there. Unfortunately, the MinIO browser does not support the download of folders. But there are multiple ways to download the data:
+
+### Quick & easy: Using mc
+- install the [mc command line tool](https://min.io/docs/minio/linux/reference/minio-mc.html#id3)
+- open your terminal
+- run `mc alias set culture-collections https://s3.embl.de` and hit enter three times (leave the keys empty)
+- run `mc cp --recursive culture-collections/culture-collections/data/single_volumes/images/ome-zarr/<volume-you-want-to-download> <path-it-should-be-cpied-to>` to download a volume
+- an example could be to download `rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr` to the current folder by running `mc cp --recursive culture-collections/culture-collections/data/single_volumes/images/ome-zarr/rcc_p22-120_pfa_hs_nhs_tap952_tub_04.ome.zarr .`
+- if you want to list all the volumes you can run `mc ls culture-collections/culture-collections/data/single_volumes/images/ome-zarr`
+
+### With a GUI: Using Cyberduck (only on Windows or Mac)
+- install [Cyberduck](https://cyberduck.io/)
+- start Cyberduck
+- click "Open Connection", choose "Amazon S3" and paste `https://s3.embl.de/culture-collections` in "Server", make sure you tick "Anonymous Login", click "Connect
+- now you should see the files and can choose to download by right click
+
+![](readme_images/cyberduck1.png)
+
+![](readme_images/cyberduck2.png)
+
+![](readme_images/cyberduck3.png)
 
 ## Contributing
 *NOTE: This part is relevant only for researchers who are part of the project.*
