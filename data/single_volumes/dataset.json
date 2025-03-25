@@ -130,7 +130,11 @@
   },
   "views": {
     "default": {
-      "uiSelectionGroup": "bookmark"
+      "uiSelectionGroup": "bookmark",
+      "uiSelectionGroups": [
+        "volumes",
+        "nicer_vols"
+      ]
     },
     "20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst_series00": {
       "isExclusive": true,
@@ -178,7 +182,11 @@
           }
         }
       ],
-      "uiSelectionGroup": "volumes"
+      "uiSelectionGroup": "volumes",
+      "uiSelectionGroups": [
+        "nicer_vols",
+        "others"
+      ]
     },
     "20230423_RCC_1216_pfa_OD_nhs-tub-Hoechst_series01": {
       "isExclusive": true,
