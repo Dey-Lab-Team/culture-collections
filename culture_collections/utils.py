@@ -2,7 +2,7 @@ import argparse
 import os
 import warnings
 
-from .scrape_supported_file_types_from_web import is_format_supported
+from culture_collections.scrape_supported_file_types_from_web import is_format_supported
 
 
 def filter_for_supported_file_formats(input_data: list[str]):

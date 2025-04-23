@@ -1,8 +1,10 @@
 import argparse
 import os
 
-from .do_all_at_once_seperate_channels import do_all_at_once_seperate_channels
-from .utils import filter_for_supported_file_formats
+from culture_collections.do_all_at_once_seperate_channels import (
+    do_all_at_once_seperate_channels,
+)
+from culture_collections.utils import filter_for_supported_file_formats
 
 
 def group_files_by_volume(channel_files: list[str]) -> dict[str, list[str]]:
@@ -21,7 +23,7 @@ def group_files_by_volume(channel_files: list[str]) -> dict[str, list[str]]:
 
 
 def generate_view_names(
-    volume_channel_file_map: dict[str, list[str]]
+    volume_channel_file_map: dict[str, list[str]],
 ) -> dict[str, str]:
     view_name_map: dict[str, str] = {}
     for volume_name, channel_files in volume_channel_file_map.items():

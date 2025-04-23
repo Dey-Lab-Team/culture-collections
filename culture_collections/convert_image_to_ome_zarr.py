@@ -5,7 +5,7 @@ import subprocess
 
 from tqdm import tqdm
 
-from .utils import filter_for_supported_file_formats
+from culture_collections.utils import filter_for_supported_file_formats
 
 
 def generate_zarr_file_path(input_file_path: str, tmp_dir: str) -> str:

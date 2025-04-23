@@ -4,7 +4,7 @@ import subprocess
 
 from tqdm import tqdm
 
-from .utils import filter_for_ome_zarr
+from culture_collections.utils import filter_for_ome_zarr
 
 
 def upload_to_s3(
