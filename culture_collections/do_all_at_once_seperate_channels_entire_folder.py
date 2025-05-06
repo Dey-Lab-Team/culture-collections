@@ -7,12 +7,15 @@ from culture_collections.do_all_at_once_seperate_channels import (
 from culture_collections.utils import filter_for_supported_file_formats
 
 
-def group_files_by_volume(channel_files: list[str]) -> dict[str, list[str]]:
+def group_files_by_volume(
+    channel_files: list[str], pos_of_channel_info: int = -2
+) -> dict[str, list[str]]:
     volume_channel_file_map: dict[str, list[str]] = {}
     for file in channel_files:
         volume_name_components = os.path.basename(file).split(".")[0].split("_")
         volume_name = "_".join(
-            volume_name_components[:-2] + volume_name_components[-1:]
+            volume_name_components[:pos_of_channel_info]
+            + volume_name_components[pos_of_channel_info + 1 :]
         )
         if volume_name not in volume_channel_file_map:
             volume_channel_file_map[volume_name] = [file]
@@ -23,15 +26,21 @@ def group_files_by_volume(channel_files: list[str]) -> dict[str, list[str]]:
 
 
 def generate_view_names(
-    volume_channel_file_map: dict[str, list[str]],
+    volume_channel_file_map: dict[str, list[str]], pos_of_channel_info: int = -2
 ) -> dict[str, str]:
     view_name_map: dict[str, str] = {}
     for volume_name, channel_files in volume_channel_file_map.items():
         volume_name_components = volume_name.split("_")
-        view_name = "_".join(volume_name_components[:-1]) + "_"
+        view_name = "_".join(volume_name_components[: pos_of_channel_info + 1]) + "_"
         for channel_file in channel_files:
-            view_name += f"{os.path.basename(channel_file).split('_')[-2]}-"
-        view_name = view_name[:-1] + "_" + volume_name_components[-1]
+            view_name += (
+                f"{os.path.basename(channel_file).split('_')[pos_of_channel_info]}-"
+            )
+        view_name = (
+            view_name[:-1]
+            + "_"
+            + "_".join(volume_name_components[pos_of_channel_info + 1 :])
+        )
         view_name_map[volume_name] = view_name
     return view_name_map
 
@@ -50,6 +59,13 @@ def get_args():
         help="Path to the directory containing volumes with channels "
         "in individual files. Assumes that the files are named "
         "like `<...>_<channel>_<volumeNumber>.<extension>`.",
+    )
+    parser.add_argument(
+        "--pos_of_channel_info",
+        "-c",
+        default=-2,
+        type=int,
+        help="Position of the channel information in the file name. ",
     )
     parser.add_argument(
         "--s3_alias",
@@ -81,8 +97,12 @@ def main():
     # get input arguments
     args = get_args()
     channel_files = sorted(filter_for_supported_file_formats(args.directory))
-    volume_channel_file_map = group_files_by_volume(channel_files)
-    view_name_map = generate_view_names(volume_channel_file_map)
+    volume_channel_file_map = group_files_by_volume(
+        channel_files, args.pos_of_channel_info
+    )
+    view_name_map = generate_view_names(
+        volume_channel_file_map, args.pos_of_channel_info
+    )
     if args.dry_run:
         print(f"volume_channel_file_map (len = {len(volume_channel_file_map)}):")
         print(volume_channel_file_map)
