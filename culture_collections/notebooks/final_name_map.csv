@@ -875,13 +875,13 @@ Tokyo_HD_tub_bodipy_10x_01_series01	tokyo_pfa_tub_20230915_fm_01_s01	x	3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series07	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s07		3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series08		x	1
 20230616_rccp2281_pfa_tub-hoechst-nhs_series09		x	1
-20230616_rccp2281_pfa_tub-hoechst-nhs_series10	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s10		3
+20230616_rccp2281_pfa_tub-hoechst-nhs_series10	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s10	x	3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series11	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s11		3
-20230616_rccp2281_pfa_tub-hoechst-nhs_series12	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s12		3
+20230616_rccp2281_pfa_tub-hoechst-nhs_series12	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s12	x	3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series13	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s13		3
-20230616_rccp2281_pfa_tub-hoechst-nhs_series14	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s14		3
+20230616_rccp2281_pfa_tub-hoechst-nhs_series14	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s14	x	3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series15	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s15		3
-20230616_rccp2281_pfa_tub-hoechst-nhs_series16	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s16		3
+20230616_rccp2281_pfa_tub-hoechst-nhs_series16	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s16	x	3
 20230616_rccp2281_pfa_tub-hoechst-nhs_series17	rccp22-81_pfa_dna-nhs-tub_20230616_cl_s17		3
 20230616_RCC_1490_pfa_OD_Hoechst-tub-nhs_series00	rcc1490_pfa_dna-tub-nhs_20230616_od_s00		3
 20230616_RCC_1490_pfa_OD_Hoechst-tub-nhs_series01	rcc1490_pfa_dna-tub-nhs_20230616_od_s01		3
@@ -1129,7 +1129,7 @@ Tokyo_HD_tub_bodipy_10x_01_series01	tokyo_pfa_tub_20230915_fm_01_s01	x	3
 20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02	rcc10445_pfa_nhs-tub-dna_20230423_od_s02		3
 20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03	rcc10445_pfa_nhs-tub-dna_20230423_od_s03		3
 20230423_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series04	rcc10445_pfa_nhs-tub-dna_20230423_od_s04		3
-20230523_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00	rcc10445_pfa_nhs-tub-dna_20230523_od_s00		3
+20230523_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series00	rcc10445_pfa_nhs-tub-dna_20230523_od_s00	x	3
 20230523_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series01	rcc10445_pfa_nhs-tub-dna_20230523_od_s01		3
 20230523_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series02	rcc10445_pfa_nhs-tub-dna_20230523_od_s02		3
 20230523_RCC_CB1C1_pfa_OD_nhs-tub-Hoechst_series03	rcc10445_pfa_nhs-tub-dna_20230523_od_s03		3
@@ -1696,8 +1696,8 @@ RCC6123_pfa_cetn_tub_dna_20252103_cl_s08	rcc6123_pfa_cetn-tub-dna_20252103_cl_08
 RCC6604_pfa_cetn_tub_dna_20252103_cl_s01	rcc6604_pfa_cetn-tub-dna_20252103_cl_01		3
 RCC6604_pfa_cetn_tub_dna_20252103_cl_s02	rcc6604_pfa_cetn-tub-dna_20252103_cl_02		3
 RCC6604_pfa_cetn_tub_dna_20252103_cl_s03	rcc6604_pfa_cetn-tub-dna_20252103_cl_03		3
-RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s01	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_01		4
-RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s02	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_02		4
+RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s01	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_01	x	4
+RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s02	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_02	x	4
 RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s03	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_03		4
 RCC6675_pfa_20250314_cetn-dna-nhs-tub_hs_s04	rcc6675_pfa_cetn-dna-nhs-tub_20250314_hs_04		4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s01	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_01		4
@@ -1714,7 +1714,7 @@ RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s11	rcc6675_pl_cetn-dna-nhs-tub_20250318
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s12	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_12		4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s13	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_13		4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s14	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_14		4
-RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s15	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_15		4
+RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s15	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_15	x	4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s16	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_16		4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s17	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_17		4
 RCC6675_pl_20250318_cetn-dna-nhs-tub_hs_s18	rcc6675_pl_cetn-dna-nhs-tub_20250318_hs_18		4
