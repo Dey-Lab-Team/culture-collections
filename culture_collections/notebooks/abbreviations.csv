@@ -1,0 +1,223 @@
+ids	fixes	channels	dates	researchers	extra
+bmcc1	hpf	act	20230423	cl	00
+bmcc10	pfa	azo49	20230424	csd	01
+bmcc109	pl	bf	20230426	fm	01_s00
+bmcc121		bod	20230427	hs	01_s01
+bmcc122		cetn	20230506	od	01_s02
+bmcc124		cetnsted	20230516		02
+bmcc127		cj44	20230519		02_s00
+bmcc129		ctn	20230522		02_s01
+bmcc147		delta2tub	20230523		02_s02
+bmcc16		dna	20230531		03
+bmcc178		glypep1	20230616		03_s00
+bmcc183		gt335	20230621		03_s01
+bmcc208		h3	20230625		03_s02
+bmcc21		na	20230626		04
+bmcc261		nhs	20230629		04_s00
+bmcc28		npc	20230704		04_s01
+bmcc281		npcsted	20230705		04_s02
+bmcc298		pcna	20230707		04_s03
+bmcc308		polye	20230710		05
+bmcc311		tap952	20230711		05_s00
+bmcc33		tub	20230712		05_s01
+bmcc348		tuba1monoe	20230717		06
+bmcc35		tubsted	20230718		07
+bmcc394			20230719		08
+bmcc4			20230720		09
+bmcc405			20230721		10
+bmcc41			20230724		11
+bmcc449			20230728		12
+bmcc469			20230731		13
+bmcc472			20230802		14
+bmcc492			20230803		15
+bmcc540			20230815		16
+bmcc588			20230816		17
+bmcc597			20230817		18
+bmcc598			20230823		19
+bmcc606			20230824		20
+bmcc607			20230829		21
+bmcc613			20230830		22
+bmcc614			20230831		23
+bmcc636			20230901		24
+bmcc640			20230905		25
+bmcc642			20230906		26
+bmcc67			20230908		27
+bmcc673			20230909		28
+bmcc678			20230912		29
+bmcc680			20230913		30
+bmcc686			20230915		31
+bmcc69			20230918		32
+bmcc691			20231018		33
+bmcc692			20231025		s00
+bmcc745			20231120		s01
+bmcc746			20231121		s02
+bmcc761			20231123		s03
+bmcc78			20231201		s04
+bmcc8			20231208		s05
+bmcc80			20240111		s06
+bmcc85			20240115		s07
+bmcc868			20240117		s08
+c1975			20240118		s09
+erariseta			20240119		s10
+rcc10349			20240203		s11
+rcc10352			20240205		s12
+rcc10360			20240207		s13
+rcc10369			20240208		s14
+rcc10375			20240209		s15
+rcc10388			20240212		s16
+rcc10426			20240213		s17
+rcc10431			20240214		s18
+rcc10445			20240215		s19
+rcc10610			20240216		s20
+rcc10614			20240220		s21
+rcc10618			20240222		s22
+rcc10623			20240229		s23
+rcc10633			20240307		s24
+rcc10633rcc10381			20240318		
+rcc10636			20240322		
+rcc10637			20240325		
+rcc10642			20240401		
+rcc10646			20240404		
+rcc10647			20240411		
+rcc10647rcc10636			20240423		
+rcc10649			20240425		
+rcc10662			20240426		
+rcc10669			20240521		
+rcc10688			20240522		
+rcc10705			20240604		
+rcc10708			20240829		
+rcc10709			20240912		
+rcc10719			20250314		
+rcc10722			20250318		
+rcc10731			20251803		
+rcc10732			20252003		
+rcc10738			20252103		
+rcc10746					
+rcc10777					
+rcc10802					
+rcc10822					
+rcc10862					
+rcc10887					
+rcc10895					
+rcc10896					
+rcc10902					
+rcc10922					
+rcc10924					
+rcc10930					
+rcc10933					
+rcc10952					
+rcc10956					
+rcc1130					
+rcc1131					
+rcc1186					
+rcc1216					
+rcc1217					
+rcc1490					
+rcc1491					
+rcc15					
+rcc1502					
+rcc1512					
+rcc1512rcc10887					
+rcc1521					
+rcc1522					
+rcc1532					
+rcc1534					
+rcc1536					
+rcc1540					
+rcc1805					
+rcc1871					
+rcc2040					
+rcc2321					
+rcc2339					
+rcc2491					
+rcc2538					
+rcc2539					
+rcc2550					
+rcc2962					
+rcc3002					
+rcc3374					
+rcc3384					
+rcc3387b					
+rcc3430					
+rcc3436					
+rcc3438					
+rcc3511					
+rcc3511rcc10719					
+rcc3536					
+rcc3594					
+rcc3656					
+rcc3691					
+rcc3777					
+rcc4104					
+rcc417					
+rcc4434					
+rcc4630					
+rcc4631					
+rcc4656					
+rcc4657					
+rcc4660					
+rcc4804					
+rcc5249					
+rcc5277					
+rcc5282					
+rcc5488rcc5532					
+rcc5610rcc5532					
+rcc5610rcc6123					
+rcc5817					
+rcc5909					
+rcc6123					
+rcc6124					
+rcc6169rcc6518					
+rcc6171					
+rcc6181					
+rcc6196					
+rcc6219					
+rcc6234					
+rcc6251					
+rcc6257					
+rcc626					
+rcc6310					
+rcc6323					
+rcc6324					
+rcc6327					
+rcc6336					
+rcc6343					
+rcc6369					
+rcc6387					
+rcc6443					
+rcc6444					
+rcc6516					
+rcc6550					
+rcc6604					
+rcc6604rcc6327					
+rcc6674					
+rcc6675					
+rcc6684					
+rcc6695					
+rcc6716					
+rcc6731					
+rcc696rcc10662					
+rcc7000					
+rcc7014					
+rcc7050					
+rcc7769					
+rcc856					
+rcc998					
+rcc999rcc2538					
+rccarc3673					
+rccarc373					
+rccgatin95					
+rccif-kge-ic					
+rccja1					
+rcck-0961					
+rcck0961					
+rcck1260					
+rccp2-b1					
+rccp22-112					
+rccp22-60					
+rccp22-81					
+rccp22ku					
+rccpretk1					
+rccs1-6					
+tokyo					
+vf21108					
