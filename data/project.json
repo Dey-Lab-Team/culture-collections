@@ -1,6 +1,7 @@
 {
   "datasets": [
-    "volumes"
+    "volumes",
+    "volumes_with_categories"
   ],
   "defaultDataset": "volumes",
   "specVersion": "0.3.0"
