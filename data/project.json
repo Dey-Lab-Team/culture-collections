@@ -1,9 +1,7 @@
 {
   "datasets": [
-    "single_volumes",
-    "test",
-    "new_names"
+    "volumes"
   ],
-  "defaultDataset": "single_volumes",
+  "defaultDataset": "volumes",
   "specVersion": "0.3.0"
 }
