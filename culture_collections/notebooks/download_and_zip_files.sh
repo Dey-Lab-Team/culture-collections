@@ -4,6 +4,8 @@ while read f; do
     echo "Downloaded: $f"
     zip -q -r "/scratch/hellgoth/planexm_zips/$f.zip" "/scratch/hellgoth/planexm_zips/$f"
     echo "Zipped: $f"
+    rm -rf "/scratch/hellgoth/planexm_zips/$f"
+    echo "Removed: $f"
     echo "Done: $c / 1186"
     c=$((c + 1))
 done < ./culture_collections/notebooks/all_files.txt
