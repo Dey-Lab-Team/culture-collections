@@ -2,10 +2,13 @@
 This repository provides easy access to the data from [Charting the landscape of cytoskeletal diversity in microbial eukaryotes](https://doi.org/10.1101/2024.10.18.618984). It contains both, the metadata of the [MoBIE](https://mobie.github.io/) project as well as the according python scripts to create and update the project.
 
 ## Usage
-- install [Fiji](https://imagej.net/software/fiji/downloads) and the [MoBIE plugin](https://mobie.github.io/tutorials/installation.html)
-- open Fiji, type "mobie" in the search bar and run "Open MoBIE Project..."
+- install [Fiji](https://imagej.net/software/fiji/downloads) and the [MoBIE plugin](https://mobie.github.io/tutorials/installation.html), open Fiji, type "mobie" in the search bar and run "Open MoBIE Project..."
 - enter https://github.com/Dey-Lab-Team/culture-collections, chose "Remote" and click "OK"
-- you are ready to explore the data 
+- you are ready to explore the data, choose a volume and click on view to load it
+
+* we provide different dropdown menus you can choose from ("all_volumes" contains all volumes, "mitosis" contains all volumes of cells that are undergoing mitosis, ...)
+* if you don't want to look for the volume of interest, you can also enter its name in the "location" field
+* below all channels of the current volume are listed, you can de-/activate them, change their color, adjust brightness settings, ...
 
 ![](readme_images/start_mobie.png)
 
