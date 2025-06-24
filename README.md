@@ -39,8 +39,12 @@ Data is stored in this [S3 bucket](https://console.s3.embl.de/browser/culture-co
 
 ![](readme_images/cyberduck3.png)
 
+
+### From the BioImage Archive
+Additionally, all microscopy images generated for this study were archived at the BioImage Archive, available at https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2095, and can also be downloaded from there.
+
 ## Contributing
-*NOTE: This part is relevant only for researchers who are part of the project.*
+*NOTE: This part was relevant only for researchers who are part of the project while it was not public yet.*
 
 <details>
 <summary>Getting write access & adding data</summary>
