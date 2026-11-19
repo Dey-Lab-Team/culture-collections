@@ -47,7 +47,7 @@ Data is stored in the public S3 bucket `culture-collections` at `https://dey.buc
 Additionally, all microscopy images generated for this study were archived at the BioImage Archive, available at https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2095, and can also be downloaded from there.
 
 ### Supplementary Data S1
-The supplementary Data S1 of the paper (PDF, 519 MB) is stored in the same bucket and can be downloaded here: https://dey.buckets.embl.de/culture-collections/data_s1/Data_S1.pdf
+The supplementary Data S1 of the paper (PDF, 545 MB) is stored in the same bucket and can be downloaded here: https://dey.buckets.embl.de/culture-collections/data_s1/Data_S1.pdf
 
 ## Contributing
 *NOTE: This part was relevant only for researchers who are part of the project while it was not public yet.*
