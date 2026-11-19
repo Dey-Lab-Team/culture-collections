@@ -19,6 +19,11 @@ This repository provides easy access to the data from [Charting the landscape of
 ## Download data
 > [!NOTE]
 > In November 2026 the data moved to a new S3 storage, because EMBL's MinIO S3 service (`s3.embl.de`) is shut down on 1 December 2026. Links to `s3.embl.de` or `console.s3.embl.de`, including those in the paper, will not work anymore after that date. The data is now available at `https://dey.buckets.embl.de/culture-collections`. The folder structure did not change, and the MoBIE project in this repository already points to the new location.
+>
+> | Link in the paper | New location |
+> |---|---|
+> | https://console.s3.embl.de/browser/culture-collections (all microscopy data) | `https://dey.buckets.embl.de/culture-collections`, see the download instructions below, or open the MoBIE project as described in [Usage](#usage) |
+> | https://console.s3.embl.de/browser/culture-collections/data_s1%2F (Data S1) | https://dey.buckets.embl.de/culture-collections/data_s1/Data_S1.pdf, see [Data S1](#data-s1-curated-selection-of-60-species) |
 
 Data is stored in the public S3 bucket `culture-collections` at `https://dey.buckets.embl.de` and can be downloaded from there with any S3 client. There are multiple ways to download the data:
 
@@ -46,8 +51,8 @@ Data is stored in the public S3 bucket `culture-collections` at `https://dey.buc
 ### From the BioImage Archive
 Additionally, all microscopy images generated for this study were archived at the BioImage Archive, available at https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2095, and can also be downloaded from there.
 
-### Supplementary Data S1
-The supplementary Data S1 of the paper (PDF, 545 MB) is stored in the same bucket and can be downloaded here: https://dey.buckets.embl.de/culture-collections/data_s1/Data_S1.pdf
+### Data S1: curated selection of 60 species
+A curated list of images of 60 different species (Data S1 of the paper) is provided as a compiled single PDF file (545 MB). It is stored in the same bucket and can be downloaded here: https://dey.buckets.embl.de/culture-collections/data_s1/Data_S1.pdf
 
 ## Contributing
 *NOTE: This part was relevant only for researchers who are part of the project while it was not public yet.*
